@@ -1,66 +1,133 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# SDGs Kesehatan Web Project
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Deskripsi Proyek
+Web ini dikembangkan sebagai platform untuk mendukung pencapaian **Sustainable Development Goals (SDGs) - Tujuan 3: Kesehatan dan Kesejahteraan**. Fokus utama adalah menampilkan data indikator kesehatan, edukasi masyarakat, dan monitoring capaian target SDGs berbasis teknologi web menggunakan **Laravel Framework**.
 
-## About Laravel
+## Fitur Utama
+1. **Dashboard Indikator Kesehatan**
+   - Visualisasi progres capaian SDGs menggunakan grafik dan tabel.
+   - Filter data berdasarkan wilayah dan periode waktu.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+2. **Manajemen Data Kesehatan**
+   - Input, validasi, dan manajemen data oleh kontributor.
+   - Integrasi API dari sumber eksternal (WHO, BPS).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+3. **Artikel dan Edukasi Kesehatan**
+   - Penyajian artikel dan informasi edukasi tentang kesehatan.
+   - Fitur pencarian dan kategori topik.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+4. **Laporan dan Monitoring**
+   - Generate laporan dalam format PDF/Excel.
+   - Perbandingan data antar periode atau wilayah.
 
-## Learning Laravel
+5. **Manajemen Pengguna**
+   - Role-based access control (RBAC): Admin, Kontributor, Pengguna Umum.
+   - Autentikasi pengguna menggunakan Laravel Breeze/Jetstream.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+6. **Forum Kolaborasi**
+   - Ruang diskusi untuk stakeholder dan tenaga kesehatan.
+   - Upload file dan komentar interaktif.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Teknologi yang Digunakan
+### Backend:
+- **Laravel 10/11** - Framework utama.
+- **Composer** - Dependency management.
+- **Laravel Sanctum/Passport** - API Authentication.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Frontend:
+- **Blade Template** - Template engine Laravel.
+- **Tailwind CSS** / **Bootstrap** - Styling UI.
+- **Chart.js** / **ApexCharts** - Visualisasi data kesehatan.
 
-## Laravel Sponsors
+### Database:
+- **MySQL** / **PostgreSQL** - Database utama.
+- **Eloquent ORM** - Query builder.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### File Handling:
+- **Intervention Image** - Manipulasi gambar.
+- **Laravel Storage** - Upload file.
 
-### Premium Partners
+### Lainnya:
+- **Laravel DomPDF** - Generate laporan PDF.
+- **Spatie Laravel Permission** - Role-based access control.
+- **Guzzle HTTP** - Integrasi API eksternal.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Instalasi Proyek
+Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
 
-## Contributing
+### 1. Clone Repository
+```bash
+git clone <repository-url>
+cd <nama-folder-proyek>
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 2. Install Dependency
+```bash
+composer install
+npm install
+```
 
-## Code of Conduct
+### 3. Konfigurasi Environment
+Buat file `.env` dari template:
+```bash
+cp .env.example .env
+```
+Atur konfigurasi database, mail, dan storage di file `.env`.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 4. Generate Key dan Migration
+```bash
+php artisan key:generate
+php artisan migrate --seed
+```
 
-## Security Vulnerabilities
+### 5. Run Server
+Jalankan server lokal:
+```bash
+php artisan serve
+```
+Akses proyek melalui [http://localhost:8000](http://localhost:8000).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 6. Build Frontend Assets
+Jika menggunakan Tailwind atau JS:
+```bash
+npm run dev
+```
+
+## Deployment
+Untuk deployment ke production:
+1. Konfigurasi file `.env` di server.
+2. Run perintah berikut:
+   ```bash
+   composer install --optimize-autoloader --no-dev
+   npm run build
+   php artisan config:cache
+   php artisan route:cache
+   php artisan migrate --force
+   ```
+
+## Dokumentasi API
+Endpoint API untuk manajemen data kesehatan menggunakan format **RESTful**.
+
+### Contoh Endpoint:
+- **GET** `/api/indikator` - Menampilkan semua data indikator kesehatan.
+- **POST** `/api/indikator` - Menambahkan data indikator (Role: Kontributor/Admin).
+- **PUT** `/api/indikator/{id}` - Update data indikator.
+- **DELETE** `/api/indikator/{id}` - Hapus data indikator.
+
+Untuk autentikasi API gunakan token melalui Laravel Sanctum/Passport.
+
+## Kontribusi
+Jika ingin berkontribusi:
+1. Fork repository ini.
+2. Buat branch fitur: `git checkout -b feature-nama-fitur`.
+3. Commit perubahan: `git commit -m "Deskripsi perubahan"`.
+4. Push ke branch Anda: `git push origin feature-nama-fitur`.
+5. Ajukan Pull Request.
 
 ## License
+Proyek ini menggunakan lisensi **MIT License**.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+**Dibuat oleh**: FUTURES TEAM
+**Tujuan Proyek**: Mendukung pencapaian SDGs 3 - Kesehatan yang Baik dan Kesejahteraan.
