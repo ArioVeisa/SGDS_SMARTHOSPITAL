@@ -283,13 +283,6 @@
                                             <!-- content -->
                                             <p>Berita Kesehatan Terbaru</p>
                                         </div>
-                                        <a class="nonblock nontext Button fadeIn rounded-corners clearfix grpelem"
-                                            id="buttonu16665" href="services.html"><!-- container box -->
-                                            <div class="clearfix grpelem" id="u16667-4">
-                                                <!-- content -->
-                                                <p>View All&nbsp;&nbsp;&nbsp; &gt;</p>
-                                            </div>
-                                        </a>
                                     </div>
                                     <div class="clearfix colelem" id="u18031-4">
                                         <!-- content -->
@@ -326,7 +319,6 @@
                                     <p>Dental Services</p>
                                 </div>
                                 <div class="clearfix grpelem" id="u16475-4">
-                                    <!-- content -->
                                     <p>Vaccination</p>
                                 </div>
                                 <div class="clearfix grpelem" id="u16483-4">
@@ -353,20 +345,6 @@
                                 <div class="fadeIn clearfix grpelem" id="u22314-4">
                                     <!-- content -->
                                     <p>Packages and Programs</p>
-                                </div>
-                                <div class="clearfix grpelem" id="u22349">
-                                    <!-- group -->
-                                    <div class="clearfix grpelem" id="u22350">
-                                        <!-- group -->
-                                        <div class="grpelem" id="u22423">
-                                            <!-- custom html -->
-                                            <i class="fa fa-play"></i>
-                                        </div>
-                                    </div>
-                                    <div class="rounded-corners clearfix grpelem" id="u22351-4">
-                                        <!-- content -->
-                                        <p>Gallery</p>
-                                    </div>
                                 </div>
                             </div>
                             <div class="clearfix colelem" id="pmakeanappointment">
@@ -426,183 +404,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grpelem" id="u22313"><!-- simple frame --></div>
-                            </div>
-                            <div class="fadeIn clearfix colelem" id="u16919-4">
-                                <!-- content -->
-                                <p>What Our Customer Say</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="browser_width grpelem" id="u18060-bw">
-                    <div id="u18060">
-                        <!-- group -->
-                        <div class="clearfix" id="u18060_align_to_page">
-                            <div class="clearfix grpelem" id="pu16688-4">
-                                <!-- column -->
-                                <div class="fadeIn clearfix colelem" id="u16688-4">
-                                    <!-- content -->
-                                    <p>Make an Appointment</p>
-                                </div>
-                                <div class="rounded-corners clearfix colelem" id="u16811-4">
-                                    <!-- content -->
-                                    <p>
-                                        If you would like us to select a doctor for you, then
-                                        please fill out the preferred time and date of your
-                                        appointment below
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="clearfix grpelem" id="pu16603">
-                                <!-- column -->
-                                <div class="clearfix colelem" id="u16603">
-                                    <!-- group -->
-                                    <div class="clearfix grpelem" id="u16604">
-                                        <!-- group -->
-                                        <div class="grpelem" id="u22425">
-                                            <!-- custom html -->
-                                            <i class="fa fa-map-marker"></i>
-                                        </div>
-                                    </div>
-                                    <div class="fadeIn clearfix grpelem" id="u16608-4">
-                                        <!-- content -->
-                                        <p>Map</p>
-                                    </div>
-                                </div>
-                                <div class="colelem" id="u16614">
-                                    <!-- custom html -->
-
-                                    <iframe class="actAsDiv" width="269" height="456" frameborder="0"
-                                        scrolling="no" marginheight="0" marginwidth="0"
-                                        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=Adobe%20Systems%20Inc%2C%20Park%20Avenue%2C%20San%20Jose%2C%20CA&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="browser_width grpelem" id="u16640-bw">
-                    <div id="u16640"><!-- simple frame --></div>
-                </div>
-                <div class="browser_width grpelem" id="u16510-bw">
-                    <div class="museBGSize" id="u16510">
-                        <!-- group -->
-                        <div class="clearfix" id="u16510_align_to_page">
-                            <div class="fadeIn rounded-corners grpelem" id="u16511">
-                                <!-- simple frame -->
-                            </div>
-                            <div class="clearfix grpelem" id="pu16528-4">
-                                <!-- column -->
-                                <div class="fadeIn clearfix colelem" id="u16528-4">
-                                    <!-- content -->
-                                    <p>About Us</p>
-                                </div>
-                                <div class="rounded-corners clearfix colelem" id="u16534-4">
-                                    <!-- content -->
-                                    <p>Kelompok 4 : </p>
-                                    <p>Vivi Intan Sari</p>
-                                    <p>Aawali Salsabila</p>
-                                    <p>Mariana Angelica Putri De Rozary</p>
-                                    <p>Ario</p>
-                                    <p>Husein</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="Button fadeIn rounded-corners clearfix grpelem" id="buttonu17382">
-                    <!-- container box -->
-                    <div class="clearfix grpelem" id="u17384-4">
-                        <!-- content -->
-                        <p>Read More&nbsp; &gt;</p>
-                    </div>
-                </div>
-                <form class="form-grp clearfix grpelem" id="widgetu16822" method="post"
-                    enctype="multipart/form-data" action="scripts/form-u16822.php">
-                    <!-- none box -->
-                    <div class="fld-grp clearfix grpelem" id="widgetu16838" data-required="true">
-                        <!-- none box -->
-                        <label class="fld-label actAsDiv clearfix grpelem" id="u16839-4"
-                            for="widgetu16838_input"><!-- content --><span class="actAsPara">Name *</span></label>
-                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16841-4"><!-- content --><input
-                                class="wrapped-input" type="text" spellcheck="false" id="widgetu16838_input"
-                                name="custom_U16838" tabindex="1" /><label class="wrapped-input fld-prompt"
-                                id="widgetu16838_prompt" for="widgetu16838_input"><span class="actAsPara">Your&nbsp;
-                                    Name</span></label></span>
-                    </div>
-                    <div class="fld-grp clearfix grpelem" id="widgetu16829" data-required="true" data-type="email">
-                        <!-- none box -->
-                        <label class="fld-label actAsDiv clearfix grpelem" id="u16832-4"
-                            for="widgetu16829_input"><!-- content --><span class="actAsPara">Email *</span></label>
-                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16830-4"><!-- content --><input
-                                class="wrapped-input" type="text" spellcheck="false" id="widgetu16829_input"
-                                name="Email" tabindex="3" /><label class="wrapped-input fld-prompt"
-                                id="widgetu16829_prompt" for="widgetu16829_input"><span class="actAsPara">Your
-                                    Email</span></label></span>
-                    </div>
-                    <div class="clearfix grpelem" id="u16837-4">
-                        <!-- content -->
-                        <p>Submitting Form...</p>
-                    </div>
-                    <div class="clearfix grpelem" id="u16828-4">
-                        <!-- content -->
-                        <p>The server encountered an error.</p>
-                    </div>
-                    <div class="clearfix grpelem" id="u16842-4">
-                        <!-- content -->
-                        <p>Form received.</p>
-                    </div>
-                    <input class="submit-btn NoWrap grpelem" id="u16827-17" type="submit" value=""
-                        tabindex="8" /><!-- state-based BG images -->
-                    <div class="fld-grp clearfix grpelem" id="widgetu16833" data-required="true">
-                        <!-- none box -->
-                        <label class="fld-label actAsDiv clearfix grpelem" id="u16835-4"
-                            for="widgetu16833_input"><!-- content --><span class="actAsPara">Message *</span></label>
-                        <span class="fld-textarea actAsDiv clearfix grpelem" id="u16836-4"><!-- content -->
-                            <textarea class="wrapped-input" id="widgetu16833_input" name="custom_U16833" tabindex="7"></textarea><label class="wrapped-input fld-prompt" id="widgetu16833_prompt"
-                                for="widgetu16833_input"><span class="actAsPara">Please
-                                    state the reasons for your appointment</span></label>
-                        </span>
-                    </div>
-                    <div class="fld-grp clearfix grpelem" id="widgetu16823" data-required="true">
-                        <!-- none box -->
-                        <label class="fld-label actAsDiv clearfix grpelem" id="u16826-4"
-                            for="widgetu16823_input"><!-- content --><span class="actAsPara">Phone *</span></label>
-                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16824-4"><!-- content --><input
-                                class="wrapped-input" type="text" id="widgetu16823_input" name="custom_U16823"
-                                tabindex="4" /><label class="wrapped-input fld-prompt" id="widgetu16823_prompt"
-                                for="widgetu16823_input"><span class="actAsPara">Your&nbsp; Phone
-                                    number</span></label></span>
-                    </div>
-                    <div class="fld-grp clearfix grpelem" id="widgetu16850" data-required="true">
-                        <!-- none box -->
-                        <label class="fld-label actAsDiv clearfix grpelem" id="u16852-4"
-                            for="widgetu16850_input"><!-- content --><span class="actAsPara">Date *</span></label>
-                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16851-4"><!-- content --><input
-                                class="wrapped-input" type="text" spellcheck="false" id="widgetu16850_input"
-                                name="custom_U16850" tabindex="5" /><label class="wrapped-input fld-prompt"
-                                id="widgetu16850_prompt" for="widgetu16850_input"><span class="actAsPara">Enter
-                                    Date</span></label></span>
-                    </div>
-                    <div class="fld-grp clearfix grpelem" id="widgetu16854" data-required="true">
-                        <!-- none box -->
-                        <label class="fld-label actAsDiv clearfix grpelem" id="u16855-4"
-                            for="widgetu16854_input"><!-- content --><span class="actAsPara">Time *</span></label>
-                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16857-4"><!-- content --><input
-                                class="wrapped-input" type="text" id="widgetu16854_input" name="custom_U16854"
-                                tabindex="6" /><label class="wrapped-input fld-prompt" id="widgetu16854_prompt"
-                                for="widgetu16854_input"><span class="actAsPara">Enter Time</span></label></span>
-                    </div>
-                    <div class="fld-grp clearfix grpelem" id="widgetu16883" data-required="true">
-                        <!-- none box -->
-                        <label class="fld-label actAsDiv clearfix grpelem" id="u16884-4"
-                            for="widgetu16883_input"><!-- content --><span class="actAsPara">Gender *</span></label>
-                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16886-4"><!-- content --><input
-                                class="wrapped-input" type="text" id="widgetu16883_input" name="custom_U16883"
-                                tabindex="2" /><label class="wrapped-input fld-prompt" id="widgetu16883_prompt"
-                                for="widgetu16883_input"><span class="actAsPara">Your Gender</span></label></span>
-                    </div>
-                </form>
                 <div class="browser_width grpelem" id="u16999-bw">
                     <div id="u16999"><!-- simple frame --></div>
                 </div>
@@ -614,7 +419,6 @@
                                 <!-- column -->
                                 <div class="colelem" id="u17001">
                                     <!-- custom html -->
-
                                     <span class="u17001">40</span>
                                 </div>
                                 <div class="clearfix colelem" id="u17006-4">
@@ -661,78 +465,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="PamphletWidget clearfix grpelem" id="pamphletu17023">
-                    <!-- none box -->
-                    <div class="ThumbGroup clearfix grpelem" id="u17024">
-                        <!-- none box -->
-                        <div class="popup_anchor">
-                            <div class="Thumb popup_element rounded-corners" id="u17026">
-                                <!-- simple frame -->
-                            </div>
-                        </div>
-                        <div class="popup_anchor">
-                            <div class="Thumb popup_element rounded-corners" id="u17190">
-                                <!-- simple frame -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="popup_anchor" id="u17029popup">
-                        <div class="ContainerGroup clearfix" id="u17029">
-                            <!-- stack box -->
-                            <div class="Container clearfix grpelem" id="u17030">
-                                <!-- column -->
-                                <div class="clearfix colelem" id="u17031-4">
-                                    <!-- content -->
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                        magna aliquam erat
-                                    </p>
-                                </div>
-                                <div class="rounded-corners colelem" id="u17058">
-                                    <!-- simple frame -->
-                                </div>
-                                <div class="clearfix colelem" id="u17032-4">
-                                    <!-- content -->
-                                    <p>Kane Doe</p>
-                                </div>
-                            </div>
-                            <div class="Container invi clearfix grpelem" id="u17191">
-                                <!-- column -->
-                                <div class="clearfix colelem" id="u17203-4">
-                                    <!-- content -->
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                        magna aliquam erat
-                                    </p>
-                                </div>
-                                <div class="rounded-corners colelem" id="u17205">
-                                    <!-- simple frame -->
-                                </div>
-                                <div class="clearfix colelem" id="u17204-4">
-                                    <!-- content -->
-                                    <p>Jane&nbsp; Doe</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="PamphletWidget clearfix grpelem" id="pamphletu22316">
                     <!-- none box -->
-                    <div class="ThumbGroup clearfix grpelem" id="u22340">
-                        <!-- none box -->
-                        <div class="popup_anchor">
-                            <div class="Thumb popup_element rounded-corners" id="u22341">
-                                <!-- simple frame -->
-                            </div>
-                        </div>
-                        <div class="popup_anchor">
-                            <div class="Thumb popup_element rounded-corners" id="u22342">
-                                <!-- simple frame -->
-                            </div>
-                        </div>
-                    </div>
                     <div class="popup_anchor" id="u22317popup">
                         <div class="ContainerGroup clearfix" id="u22317">
                             <!-- stack box -->
@@ -847,20 +581,6 @@
                     </div>
                 </div>
                 <div class="SlideShowWidget clearfix grpelem" id="slideshowu22353">
-                    <!-- none box -->
-                    <div class="popup_anchor" id="u22354popup">
-                        <div class="SlideShowContentPanel clearfix" id="u22354">
-                            <!-- stack box -->
-                            <div class="SSSlide clip_frame clearfix grpelem" id="u22355">
-                                <!-- image -->
-                                <div id="u22355_clip">
-                                    <img class="ImageInclude position_content" id="u22355_img"
-                                        data-src="images/400%20x%20400.jpg" src="images/blank.gif" alt=""
-                                        data-width="329" data-height="329" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="popup_anchor" id="u22363-4popup">
                         <div class="SSPreviousButton clearfix" id="u22363-4">
                             <!-- content -->
