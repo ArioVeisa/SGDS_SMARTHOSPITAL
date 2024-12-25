@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="bg-blue-300 min-h-screen flex items-center justify-center"> <!-- Ubah bg-blue-500 menjadi bg-blue-300 untuk biru muda -->
+    <div class="min-h-screen flex items-center justify-center" style="background: linear-gradient(135deg, rgba(128, 0, 128, 0.8), rgba(0, 0, 0, 0.8)), url('path/to/your/image.jpg'); background-size: cover; background-position: center;">
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
 
@@ -9,19 +9,14 @@
             <!-- Email Address -->
             <div>
                 <x-input-label for="email" :value="__('Email')" />
-                <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
+                <x-text-input id="email" class="block mt-1 w-full bg-white" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" /> <!-- Hapus bg-opacity-80 -->
                 <x-input-error :messages="$errors->get('email')" class="mt-2" />
             </div>
-
+            
             <!-- Password -->
             <div class="mt-4">
                 <x-input-label for="password" :value="__('Password')" />
-
-                <x-text-input id="password" class="block mt-1 w-full"
-                                type="password"
-                                name="password"
-                                required autocomplete="current-password" />
-
+                <x-text-input id="password" class="block mt-1 w-full bg-white bg-opacity-80" type="password" name="password" required autocomplete="current-password" />
                 <x-input-error :messages="$errors->get('password')" class="mt-2" />
             </div>
 
@@ -40,7 +35,11 @@
                     </a>
                 @endif
 
-                <x-primary-button class="ms-3">
+                <a href="{{ route('register') }}" class="bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ms-3">
+                    {{ __('Register') }}
+                </a>
+
+                <x-primary-button class="bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ms-3">
                     {{ __('Log in') }}
                 </x-primary-button>
             </div>
