@@ -83,7 +83,7 @@
                         width="35" height="31" />
                 </div>
                 <div class="clearfix grpelem" id="u17283-5"><!-- content -->
-                    <p><span id="u17283">M</span>EDICAL</p>
+                    <p><span id="u17283">H</span>EALTHTIX</p>
                 </div>
             </div>
             <div class="pinned-colelem" id="u22249"><!-- custom html -->
@@ -153,7 +153,7 @@
                 <div class="museBGSize" id="u17812"><!-- group -->
                     <div class="clearfix" id="u17812_align_to_page">
                         <div class="clearfix grpelem" id="u18013-4"><!-- content -->
-                            <p>About Us</p>
+                            <p>About Healthtix</p>
                         </div>
                     </div>
                 </div>
@@ -168,9 +168,8 @@
             </div>
             <div class="clearfix colelem" id="pu18021-4"><!-- group -->
                 <div class="clearfix grpelem" id="u18021-4"><!-- content -->
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis nisl ut</p>
+                    <p>To empower individuals with reliable and accessible health information, fostering a healthier
+                        global community through education, awareness, and prevention.</p>
                 </div>
                 <div class="clearfix grpelem" id="pu22446"><!-- column -->
                     <div class="colelem" id="u22446"><!-- custom html -->
@@ -185,13 +184,16 @@
                 </div>
                 <div class="clearfix grpelem" id="pu18039-4"><!-- column -->
                     <div class="clearfix colelem" id="u18039-4"><!-- content -->
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum</p>
+                        <p>To provide up-to-date, evidence-based health articles that help people make informed
+                            decisions about their well-being</p>
                     </div>
                     <div class="clearfix colelem" id="u18042-4"><!-- content -->
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum</p>
+                        <p>To be a trusted source for health information, encouraging a proactive approach to personal
+                            and public health</p>
                     </div>
                     <div class="clearfix colelem" id="u18044-4"><!-- content -->
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum</p>
+                        <p>To raise public awareness about emerging health challenges and promote preventive measures
+                        </p>
                     </div>
                 </div>
             </div>
@@ -202,260 +204,155 @@
                 <div class="browser_width grpelem" id="u18050-bw">
                     <div class="museBGSize" id="u18050"><!-- group -->
                         <div class="clearfix" id="u18050_align_to_page">
-                            <div class="fadeIn grpelem" id="u18051"><!-- simple frame --></div>
-                            <div class="fadeIn clearfix grpelem" id="u18054-6"><!-- content -->
-                                <p>A FAMILY OF <span id="u18054-2">HOSPITALS</span></p>
-                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="fadeIn clearfix grpelem" id="u18054-6"><!-- content -->
+                    <p>Your Source for</p>
+                </div>
                 <div class="fadeIn clearfix grpelem" id="u18056-4"><!-- content -->
-                    <p>FOR YOUR FAMILY.</p>
+                    <p><span id="u18054-2">Health News</span></p>
                 </div>
             </div>
             <div class="fadeIn clearfix colelem" id="u18080-4"><!-- content -->
-                <p>Our History</p>
+                <p><span>A Trusted Guide to Understanding Global Health Conditions</span></p>
             </div>
             <div class="clearfix colelem" id="pu18077-4"><!-- group -->
                 <div class="clearfix grpelem" id="u18077-4"><!-- content -->
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
-                        iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-                        feugiat nulla facilisis at vero eros et accumsan</p>
-                </div>
-                <div class="clearfix grpelem" id="u18083-4"><!-- content -->
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
-                        iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-                        feugiat nulla facilisis at vero eros et accumsan</p>
+                    <p>At Healthtix, we understand that navigating through the vast amount of health information
+                        can be overwhelming. That’s why our team of health experts and writers is dedicated to providing
+                        clear, accessible, and accurate content about various diseases and health conditions from around
+                        the world. Whether you're seeking to understand a specific illness, its symptoms, treatment
+                        options, or the latest research, we are here to guide you with reliable and up-to-date
+                        information that can help you make informed decisions about your health.</p>
                 </div>
             </div>
             <div class="clearfix colelem" id="pu17959"><!-- group -->
-                <div class="browser_width grpelem" id="u17959-bw">
-                    <div id="u17959"><!-- simple frame --></div>
-                </div>
-                <div class="browser_width grpelem" id="u17849-bw">
-                    <div class="museBGSize" id="u17849"><!-- group -->
-                        <div class="clearfix" id="u17849_align_to_page">
-                            <div class="clearfix grpelem" id="pu17821"><!-- column -->
-                                <div class="colelem" id="u17821"><!-- custom html -->
 
-                                    <span class="u17821">40</span>
-
+                <div class="verticalspacer"></div>
+                <div class="browser_width colelem" id="u17154-bw">
+                    <div id="u17154"><!-- group -->
+                        <div class="clearfix" id="u17154_align_to_page">
+                            <div class="clearfix grpelem" id="pu17172-4"><!-- column -->
+                                <div class="clearfix colelem" id="u17172-4"><!-- content -->
+                                    <p>About Us</p>
                                 </div>
-                                <div class="clearfix colelem" id="u17893-4"><!-- content -->
-                                    <p>Years of Experience</p>
-                                </div>
-                            </div>
-                            <div class="clearfix grpelem" id="pu17836"><!-- column -->
-                                <div class="colelem" id="u17836"><!-- custom html -->
-
-                                    <span class="u17836">8000</span>
-
-                                </div>
-                                <div class="clearfix colelem" id="u17855-4"><!-- content -->
-                                    <p>People Like Us</p>
+                                <div class="clearfix colelem" id="u17156-4"><!-- content -->
+                                    <p>Healthtix, we are committed to providing reliable, clear, and accessible
+                                        information on various diseases and health conditions from around the world. Our
+                                        team of experts delivers up-to-date, evidence-based content to help you
+                                        understand illnesses, their symptoms, treatments, and preventive measures, so
+                                        you can make informed decisions about your health and well-being</p>
                                 </div>
                             </div>
-                            <div class="clearfix grpelem" id="pu17842"><!-- column -->
-                                <div class="colelem" id="u17842"><!-- custom html -->
-
-                                    <span class="u17842">87</span>
-
+                            <div class="clearfix grpelem" id="pu17162-4"><!-- column -->
+                                <div class="clearfix colelem" id="u17162-4"><!-- content -->
+                                    <p>Our Info</p>
                                 </div>
-                                <div class="clearfix colelem" id="u17935-4"><!-- content -->
-                                    <p>Our Professional Doctor</p>
+                                <div class="clearfix colelem" id="pu22429"><!-- group -->
+                                    <div class="grpelem" id="u22429"><!-- custom html -->
+                                        <i class="fa fa-map-marker"></i>
+                                    </div>
+                                    <div class="clearfix grpelem" id="u17158-4"><!-- content -->
+                                        <p>999&nbsp; Street Ca 70079</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="clearfix grpelem" id="pu17860"><!-- column -->
-                                <div class="colelem" id="u17860"><!-- custom html -->
-
-                                    <span class="u17860">600</span>
-
+                                <div class="clearfix colelem" id="pu22431"><!-- group -->
+                                    <div class="grpelem" id="u22431"><!-- custom html -->
+                                        <i class="fa fa-phone "></i>
+                                    </div>
+                                    <div class="clearfix grpelem" id="u17159-4"><!-- content -->
+                                        <p>1-811-234-5678</p>
+                                    </div>
                                 </div>
-                                <div class="clearfix colelem" id="u17848-4"><!-- content -->
-                                    <p>Patients Satisfied</p>
+                                <div class="clearfix colelem" id="pu22433"><!-- group -->
+                                    <div class="grpelem" id="u22433"><!-- custom html -->
+                                        <i class="fa fa-fax "></i>
+                                    </div>
+                                    <div class="clearfix grpelem" id="u17160-4"><!-- content -->
+                                        <p>1-811-234-5679</p>
+                                    </div>
+                                </div>
+                                <div class="clearfix colelem" id="pu22435"><!-- group -->
+                                    <div class="grpelem" id="u22435"><!-- custom html -->
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="clearfix grpelem" id="u17161-4"><!-- content -->
+                                        <p>kelompok4@mail.com</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="fadeIn clearfix colelem" id="u22453-4"><!-- content -->
-                <p>What Our Customer Say</p>
-            </div>
-            <div class="PamphletWidget clearfix colelem" id="pamphletu22454"><!-- none box -->
-                <div class="ThumbGroup clearfix grpelem" id="u22464"><!-- none box -->
-                    <div class="popup_anchor">
-                        <div class="Thumb popup_element rounded-corners" id="u22466"><!-- simple frame --></div>
-                    </div>
-                    <div class="popup_anchor">
-                        <div class="Thumb popup_element rounded-corners" id="u22465"><!-- simple frame --></div>
-                    </div>
-                </div>
-                <div class="popup_anchor" id="u22455popup">
-                    <div class="ContainerGroup clearfix" id="u22455"><!-- stack box -->
-                        <div class="Container clearfix grpelem" id="u22460"><!-- column -->
-                            <div class="clearfix colelem" id="u22462-4"><!-- content -->
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat</p>
+                <div class="browser_width colelem" id="u17155-bw">
+                    <div id="u17155"><!-- group -->
+                        <div class="clearfix" id="u17155_align_to_page">
+                            <div class="clip_frame grpelem" id="u17182"><!-- image -->
+                                <img class="block" id="u17182_img" src="{{ asset('storage/images/heart2886.png') }}"
+                                    alt="" width="29" height="26" />
                             </div>
-                            <div class="rounded-corners colelem" id="u22461"><!-- simple frame --></div>
-                            <div class="clearfix colelem" id="u22463-4"><!-- content -->
-                                <p>Kane Doe</p>
+                            <div class="clearfix grpelem" id="u17181-5"><!-- content -->
+                                <p><span id="u17181">H</span>EALTHTIX</p>
                             </div>
-                        </div>
-                        <div class="Container invi clearfix grpelem" id="u22456"><!-- column -->
-                            <div class="clearfix colelem" id="u22459-4"><!-- content -->
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat</p>
+                            <div class="clearfix grpelem" id="u17163-5"><!-- content -->
+                                <p id="u17163-2">Copyright © 2024 Kelompok 4.</p>
+                                <p id="u17163-3">&nbsp;</p>
                             </div>
-                            <div class="rounded-corners colelem" id="u22457"><!-- simple frame --></div>
-                            <div class="clearfix colelem" id="u22458-4"><!-- content -->
-                                <p>Jane&nbsp; Doe</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="browser_width colelem" id="u18086-bw">
-                <div id="u18086"><!-- simple frame --></div>
-            </div>
-            <div class="verticalspacer"></div>
-            <div class="browser_width colelem" id="u17154-bw">
-                <div id="u17154"><!-- group -->
-                    <div class="clearfix" id="u17154_align_to_page">
-                        <div class="clearfix grpelem" id="pu17172-4"><!-- column -->
-                            <div class="clearfix colelem" id="u17172-4"><!-- content -->
-                                <p>About Us</p>
-                            </div>
-                            <div class="clearfix colelem" id="u17156-4"><!-- content -->
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                    minim veniam</p>
-                            </div>
-                        </div>
-                        <div class="clearfix grpelem" id="pu17173-4"><!-- column -->
-                            <div class="clearfix colelem" id="u17173-4"><!-- content -->
-                                <p>Our Hospital</p>
-                            </div>
-                            <div class="clearfix colelem" id="u17157-10"><!-- content -->
-                                <p>- Medical Services</p>
-                                <p>- Patient Guides</p>
-                                <p>- Find Doctor</p>
-                                <p>- News</p>
-                            </div>
-                        </div>
-                        <div class="clearfix grpelem" id="pu17162-4"><!-- column -->
-                            <div class="clearfix colelem" id="u17162-4"><!-- content -->
-                                <p>Our Info</p>
-                            </div>
-                            <div class="clearfix colelem" id="pu22429"><!-- group -->
-                                <div class="grpelem" id="u22429"><!-- custom html -->
-                                    <i class="fa fa-map-marker"></i>
-                                </div>
-                                <div class="clearfix grpelem" id="u17158-4"><!-- content -->
-                                    <p>999&nbsp; Street Ca 70079</p>
-                                </div>
-                            </div>
-                            <div class="clearfix colelem" id="pu22431"><!-- group -->
-                                <div class="grpelem" id="u22431"><!-- custom html -->
-                                    <i class="fa fa-phone "></i>
-                                </div>
-                                <div class="clearfix grpelem" id="u17159-4"><!-- content -->
-                                    <p>1-811-234-5678</p>
-                                </div>
-                            </div>
-                            <div class="clearfix colelem" id="pu22433"><!-- group -->
-                                <div class="grpelem" id="u22433"><!-- custom html -->
-                                    <i class="fa fa-fax "></i>
-                                </div>
-                                <div class="clearfix grpelem" id="u17160-4"><!-- content -->
-                                    <p>1-811-234-5679</p>
-                                </div>
-                            </div>
-                            <div class="clearfix colelem" id="pu22435"><!-- group -->
-                                <div class="grpelem" id="u22435"><!-- custom html -->
-                                    <i class="fa fa-envelope"></i>
-                                </div>
-                                <div class="clearfix grpelem" id="u17161-4"><!-- content -->
-                                    <p>info@mail.com</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="browser_width colelem" id="u17155-bw">
-                <div id="u17155"><!-- group -->
-                    <div class="clearfix" id="u17155_align_to_page">
-                        <div class="clip_frame grpelem" id="u17182"><!-- image -->
-                            <img class="block" id="u17182_img" src="{{ asset('storage/images/heart2886.png') }}"
-                                alt="" width="29" height="26" />
-                        </div>
-                        <div class="clearfix grpelem" id="u17181-5"><!-- content -->
-                            <p><span id="u17181">M</span>EDICAL</p>
-                        </div>
-                        <div class="clearfix grpelem" id="u17163-5"><!-- content -->
-                            <p id="u17163-2">Copyright © 2024 Kelompok 4.</p>
-                            <p id="u17163-3">&nbsp;</p>
-                        </div>
-                        <div class="grpelem" id="u17322"><!-- custom html -->
-                            <script>
-                                $('.fadeInUp').addClass('wow fadeInUp');
-                                $('.fadeInDown').addClass('wow fadeInDown');
-                                $('.fadeInLeft').addClass('wow fadeInLeft');
-                                $('.fadeInRight').addClass('wow fadeInRight');
-                                $('.fadeIn').addClass('wow fadeIn');
-                                $('.zoomIn').addClass('wow zoomIn');
-                            </script>
+                            <div class="grpelem" id="u17322"><!-- custom html -->
+                                <script>
+                                    $('.fadeInUp').addClass('wow fadeInUp');
+                                    $('.fadeInDown').addClass('wow fadeInDown');
+                                    $('.fadeInLeft').addClass('wow fadeInLeft');
+                                    $('.fadeInRight').addClass('wow fadeInRight');
+                                    $('.fadeIn').addClass('wow fadeIn');
+                                    $('.zoomIn').addClass('wow zoomIn');
+                                </script>
 
-                            <script>
-                                new WOW().init();
-                            </script>
+                                <script>
+                                    new WOW().init();
+                                </script>
 
-                        </div>
-                        <div class="grpelem" id="u22268"><!-- custom html -->
-                            <i class="fa fa-facebook"></i>
-                        </div>
-                        <div class="grpelem" id="u22270"><!-- custom html -->
-                            <i class="fa fa-instagram"></i>
-                        </div>
-                        <div class="grpelem" id="u22272"><!-- custom html -->
-                            <i class="fa fa-google-plus"></i>
-                        </div>
-                        <div class="grpelem" id="u22274"><!-- custom html -->
-                            <i class="fa fa-twitter"></i>
-                        </div>
-                        <div class="grpelem" id="u22276"><!-- custom html -->
-                            <i class="fa fa-pinterest"></i>
+                            </div>
+                            <div class="grpelem" id="u22268"><!-- custom html -->
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="grpelem" id="u22270"><!-- custom html -->
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                            <div class="grpelem" id="u22272"><!-- custom html -->
+                                <i class="fa fa-google-plus"></i>
+                            </div>
+                            <div class="grpelem" id="u22274"><!-- custom html -->
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="grpelem" id="u22276"><!-- custom html -->
+                                <i class="fa fa-pinterest"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- JS includes -->
-    <script type="text/javascript">
-        if (document.location.protocol != 'https:') document.write(
-            '\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>'
-        );
-    </script>
-    <script type="text/javascript">
-        window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-    </script>
-    <script src="scripts/museutils.js?275725342" type="text/javascript"></script>
-    <script src="scripts/jquery.musemenu.js?4042164668" type="text/javascript"></script>
-    <script src="scripts/jquery.musepolyfill.bgsize.js?185257658" type="text/javascript"></script>
-    <script src="scripts/jquery.watch.js?3999102769" type="text/javascript"></script>
-    <script src="scripts/webpro.js?3883484123" type="text/javascript"></script>
-    <script src="scripts/musewpslideshow.js?360574455" type="text/javascript"></script>
-    <script src="scripts/jquery.museoverlay.js?342093292" type="text/javascript"></script>
-    <script src="scripts/touchswipe.js?4218319045" type="text/javascript"></script>
-    <!-- Other scripts -->
-    {{-- <script type="text/javascript">
+        <!-- JS includes -->
+        <script type="text/javascript">
+            if (document.location.protocol != 'https:') document.write(
+                '\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>'
+            );
+        </script>
+        <script type="text/javascript">
+            window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+        </script>
+        <script src="scripts/museutils.js?275725342" type="text/javascript"></script>
+        <script src="scripts/jquery.musemenu.js?4042164668" type="text/javascript"></script>
+        <script src="scripts/jquery.musepolyfill.bgsize.js?185257658" type="text/javascript"></script>
+        <script src="scripts/jquery.watch.js?3999102769" type="text/javascript"></script>
+        <script src="scripts/webpro.js?3883484123" type="text/javascript"></script>
+        <script src="scripts/musewpslideshow.js?360574455" type="text/javascript"></script>
+        <script src="scripts/jquery.museoverlay.js?342093292" type="text/javascript"></script>
+        <script src="scripts/touchswipe.js?4218319045" type="text/javascript"></script>
+        <!-- Other scripts -->
+        {{-- <script type="text/javascript">
         $(document).ready(function() {
             try {
                 (function() {
@@ -545,354 +442,164 @@
         });
     </script> --}}
 
-    <!--HTML Widget code-->
+        <!--HTML Widget code-->
 
 
-    <script type="text/javascript">
-        // t: current time, b: begInnIng value, c: change In value, d: duration
-        jQuery.easing['jswing'] = jQuery.easing['swing'];
+        <script type="text/javascript">
+            // t: current time, b: begInnIng value, c: change In value, d: duration
+            jQuery.easing['jswing'] = jQuery.easing['swing'];
 
-        jQuery.extend(jQuery.easing, {
-            def: 'easeOutQuad',
-            swing: function(x, t, b, c, d) {
-                //alert(jQuery.easing.default);
-                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
-            },
-            easeInQuad: function(x, t, b, c, d) {
-                return c * (t /= d) * t + b;
-            },
-            easeOutQuad: function(x, t, b, c, d) {
-                return -c * (t /= d) * (t - 2) + b;
-            },
-            easeInOutQuad: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t + b;
-                return -c / 2 * ((--t) * (t - 2) - 1) + b;
-            },
-            easeInCubic: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t + b;
-            },
-            easeOutCubic: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t + 1) + b;
-            },
-            easeInOutCubic: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t + 2) + b;
-            },
-            easeInQuart: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t + b;
-            },
-            easeOutQuart: function(x, t, b, c, d) {
-                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
-            },
-            easeInOutQuart: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
-                return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
-            },
-            easeInQuint: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t * t + b;
-            },
-            easeOutQuint: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
-            },
-            easeInOutQuint: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
-            },
-            easeInSine: function(x, t, b, c, d) {
-                return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
-            },
-            easeOutSine: function(x, t, b, c, d) {
-                return c * Math.sin(t / d * (Math.PI / 2)) + b;
-            },
-            easeInOutSine: function(x, t, b, c, d) {
-                return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
-            },
-            easeInExpo: function(x, t, b, c, d) {
-                return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
-            },
-            easeOutExpo: function(x, t, b, c, d) {
-                return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
-            },
-            easeInOutExpo: function(x, t, b, c, d) {
-                if (t == 0) return b;
-                if (t == d) return b + c;
-                if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
-                return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
-            },
-            easeInCirc: function(x, t, b, c, d) {
-                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
-            },
-            easeOutCirc: function(x, t, b, c, d) {
-                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
-            },
-            easeInOutCirc: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
-                return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
-            },
-            easeInElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
-            },
-            easeOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
-            },
-            easeInOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d / 2) == 2) return b + c;
-                if (!p) p = d * (.3 * 1.5);
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
-                    p)) + b;
-                return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
-            },
-            easeInBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * (t /= d) * t * ((s + 1) * t - s) + b;
-            },
-            easeOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
-            },
-            easeInOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
-                return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
-            },
-            easeInBounce: function(x, t, b, c, d) {
-                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
-            },
-            easeOutBounce: function(x, t, b, c, d) {
-                if ((t /= d) < (1 / 2.75)) {
-                    return c * (7.5625 * t * t) + b;
-                } else if (t < (2 / 2.75)) {
-                    return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
-                } else if (t < (2.5 / 2.75)) {
-                    return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
-                } else {
-                    return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
-                }
-            },
-            easeInOutBounce: function(x, t, b, c, d) {
-                if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
-                return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
-            }
-        });
-    </script>
-
-
-
-
-
-
-
-
-
-
-    <script type="text/javascript">
-        $(function() {
-            var u17821span = $('span.u17821'),
-                initialvalue = u17821span.text();
-            u17821span.text('0');
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 1000) {
-                    u17821span
-                        .prop('Counter', 0)
-                        .animate({
-                            'Counter': initialvalue
-                        }, {
-                            duration: 3200,
-                            easing: 'linear',
-                            step: function(now) {
-                                u17821span.text(Math.ceil(now));
-                            }
-                        });
-                    return;
+            jQuery.extend(jQuery.easing, {
+                def: 'easeOutQuad',
+                swing: function(x, t, b, c, d) {
+                    //alert(jQuery.easing.default);
+                    return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+                },
+                easeInQuad: function(x, t, b, c, d) {
+                    return c * (t /= d) * t + b;
+                },
+                easeOutQuad: function(x, t, b, c, d) {
+                    return -c * (t /= d) * (t - 2) + b;
+                },
+                easeInOutQuad: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t + b;
+                    return -c / 2 * ((--t) * (t - 2) - 1) + b;
+                },
+                easeInCubic: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t + b;
+                },
+                easeOutCubic: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t + 1) + b;
+                },
+                easeInOutCubic: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t + 2) + b;
+                },
+                easeInQuart: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t + b;
+                },
+                easeOutQuart: function(x, t, b, c, d) {
+                    return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+                },
+                easeInOutQuart: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
+                    return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
+                },
+                easeInQuint: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t * t + b;
+                },
+                easeOutQuint: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+                },
+                easeInOutQuint: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
+                },
+                easeInSine: function(x, t, b, c, d) {
+                    return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
+                },
+                easeOutSine: function(x, t, b, c, d) {
+                    return c * Math.sin(t / d * (Math.PI / 2)) + b;
+                },
+                easeInOutSine: function(x, t, b, c, d) {
+                    return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
+                },
+                easeInExpo: function(x, t, b, c, d) {
+                    return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+                },
+                easeOutExpo: function(x, t, b, c, d) {
+                    return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+                },
+                easeInOutExpo: function(x, t, b, c, d) {
+                    if (t == 0) return b;
+                    if (t == d) return b + c;
+                    if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+                    return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+                },
+                easeInCirc: function(x, t, b, c, d) {
+                    return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+                },
+                easeOutCirc: function(x, t, b, c, d) {
+                    return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+                },
+                easeInOutCirc: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
+                    return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+                },
+                easeInElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
+                },
+                easeOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
+                },
+                easeInOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d / 2) == 2) return b + c;
+                    if (!p) p = d * (.3 * 1.5);
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
+                        p)) + b;
+                    return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
+                },
+                easeInBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * (t /= d) * t * ((s + 1) * t - s) + b;
+                },
+                easeOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+                },
+                easeInOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
+                    return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
+                },
+                easeInBounce: function(x, t, b, c, d) {
+                    return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+                },
+                easeOutBounce: function(x, t, b, c, d) {
+                    if ((t /= d) < (1 / 2.75)) {
+                        return c * (7.5625 * t * t) + b;
+                    } else if (t < (2 / 2.75)) {
+                        return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
+                    } else if (t < (2.5 / 2.75)) {
+                        return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
+                    } else {
+                        return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
+                    }
+                },
+                easeInOutBounce: function(x, t, b, c, d) {
+                    if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
+                    return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
                 }
             });
-        });
-    </script>
-
-
-    <script type="text/javascript">
-        // t: current time, b: begInnIng value, c: change In value, d: duration
-        jQuery.easing['jswing'] = jQuery.easing['swing'];
-
-        jQuery.extend(jQuery.easing, {
-            def: 'easeOutQuad',
-            swing: function(x, t, b, c, d) {
-                //alert(jQuery.easing.default);
-                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
-            },
-            easeInQuad: function(x, t, b, c, d) {
-                return c * (t /= d) * t + b;
-            },
-            easeOutQuad: function(x, t, b, c, d) {
-                return -c * (t /= d) * (t - 2) + b;
-            },
-            easeInOutQuad: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t + b;
-                return -c / 2 * ((--t) * (t - 2) - 1) + b;
-            },
-            easeInCubic: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t + b;
-            },
-            easeOutCubic: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t + 1) + b;
-            },
-            easeInOutCubic: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t + 2) + b;
-            },
-            easeInQuart: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t + b;
-            },
-            easeOutQuart: function(x, t, b, c, d) {
-                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
-            },
-            easeInOutQuart: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
-                return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
-            },
-            easeInQuint: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t * t + b;
-            },
-            easeOutQuint: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
-            },
-            easeInOutQuint: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
-            },
-            easeInSine: function(x, t, b, c, d) {
-                return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
-            },
-            easeOutSine: function(x, t, b, c, d) {
-                return c * Math.sin(t / d * (Math.PI / 2)) + b;
-            },
-            easeInOutSine: function(x, t, b, c, d) {
-                return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
-            },
-            easeInExpo: function(x, t, b, c, d) {
-                return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
-            },
-            easeOutExpo: function(x, t, b, c, d) {
-                return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
-            },
-            easeInOutExpo: function(x, t, b, c, d) {
-                if (t == 0) return b;
-                if (t == d) return b + c;
-                if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
-                return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
-            },
-            easeInCirc: function(x, t, b, c, d) {
-                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
-            },
-            easeOutCirc: function(x, t, b, c, d) {
-                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
-            },
-            easeInOutCirc: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
-                return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
-            },
-            easeInElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
-            },
-            easeOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
-            },
-            easeInOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d / 2) == 2) return b + c;
-                if (!p) p = d * (.3 * 1.5);
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
-                    p)) + b;
-                return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
-            },
-            easeInBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * (t /= d) * t * ((s + 1) * t - s) + b;
-            },
-            easeOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
-            },
-            easeInOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
-                return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
-            },
-            easeInBounce: function(x, t, b, c, d) {
-                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
-            },
-            easeOutBounce: function(x, t, b, c, d) {
-                if ((t /= d) < (1 / 2.75)) {
-                    return c * (7.5625 * t * t) + b;
-                } else if (t < (2 / 2.75)) {
-                    return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
-                } else if (t < (2.5 / 2.75)) {
-                    return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
-                } else {
-                    return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
-                }
-            },
-            easeInOutBounce: function(x, t, b, c, d) {
-                if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
-                return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
-            }
-        });
-    </script>
+        </script>
 
 
 
@@ -903,186 +610,186 @@
 
 
 
-    <script type="text/javascript">
-        $(function() {
-            var u17836span = $('span.u17836'),
-                initialvalue = u17836span.text();
-            u17836span.text('0');
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 1000) {
-                    u17836span
-                        .prop('Counter', 0)
-                        .animate({
-                            'Counter': initialvalue
-                        }, {
-                            duration: 3200,
-                            easing: 'linear',
-                            step: function(now) {
-                                u17836span.text(Math.ceil(now));
-                            }
-                        });
-                    return;
+        <script type="text/javascript">
+            $(function() {
+                var u17821span = $('span.u17821'),
+                    initialvalue = u17821span.text();
+                u17821span.text('0');
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 1000) {
+                        u17821span
+                            .prop('Counter', 0)
+                            .animate({
+                                'Counter': initialvalue
+                            }, {
+                                duration: 3200,
+                                easing: 'linear',
+                                step: function(now) {
+                                    u17821span.text(Math.ceil(now));
+                                }
+                            });
+                        return;
+                    }
+                });
+            });
+        </script>
+
+
+        <script type="text/javascript">
+            // t: current time, b: begInnIng value, c: change In value, d: duration
+            jQuery.easing['jswing'] = jQuery.easing['swing'];
+
+            jQuery.extend(jQuery.easing, {
+                def: 'easeOutQuad',
+                swing: function(x, t, b, c, d) {
+                    //alert(jQuery.easing.default);
+                    return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+                },
+                easeInQuad: function(x, t, b, c, d) {
+                    return c * (t /= d) * t + b;
+                },
+                easeOutQuad: function(x, t, b, c, d) {
+                    return -c * (t /= d) * (t - 2) + b;
+                },
+                easeInOutQuad: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t + b;
+                    return -c / 2 * ((--t) * (t - 2) - 1) + b;
+                },
+                easeInCubic: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t + b;
+                },
+                easeOutCubic: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t + 1) + b;
+                },
+                easeInOutCubic: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t + 2) + b;
+                },
+                easeInQuart: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t + b;
+                },
+                easeOutQuart: function(x, t, b, c, d) {
+                    return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+                },
+                easeInOutQuart: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
+                    return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
+                },
+                easeInQuint: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t * t + b;
+                },
+                easeOutQuint: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+                },
+                easeInOutQuint: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
+                },
+                easeInSine: function(x, t, b, c, d) {
+                    return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
+                },
+                easeOutSine: function(x, t, b, c, d) {
+                    return c * Math.sin(t / d * (Math.PI / 2)) + b;
+                },
+                easeInOutSine: function(x, t, b, c, d) {
+                    return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
+                },
+                easeInExpo: function(x, t, b, c, d) {
+                    return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+                },
+                easeOutExpo: function(x, t, b, c, d) {
+                    return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+                },
+                easeInOutExpo: function(x, t, b, c, d) {
+                    if (t == 0) return b;
+                    if (t == d) return b + c;
+                    if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+                    return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+                },
+                easeInCirc: function(x, t, b, c, d) {
+                    return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+                },
+                easeOutCirc: function(x, t, b, c, d) {
+                    return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+                },
+                easeInOutCirc: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
+                    return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+                },
+                easeInElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
+                },
+                easeOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
+                },
+                easeInOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d / 2) == 2) return b + c;
+                    if (!p) p = d * (.3 * 1.5);
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
+                        p)) + b;
+                    return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
+                },
+                easeInBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * (t /= d) * t * ((s + 1) * t - s) + b;
+                },
+                easeOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+                },
+                easeInOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
+                    return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
+                },
+                easeInBounce: function(x, t, b, c, d) {
+                    return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+                },
+                easeOutBounce: function(x, t, b, c, d) {
+                    if ((t /= d) < (1 / 2.75)) {
+                        return c * (7.5625 * t * t) + b;
+                    } else if (t < (2 / 2.75)) {
+                        return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
+                    } else if (t < (2.5 / 2.75)) {
+                        return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
+                    } else {
+                        return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
+                    }
+                },
+                easeInOutBounce: function(x, t, b, c, d) {
+                    if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
+                    return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
                 }
             });
-        });
-    </script>
-
-
-    <script type="text/javascript">
-        // t: current time, b: begInnIng value, c: change In value, d: duration
-        jQuery.easing['jswing'] = jQuery.easing['swing'];
-
-        jQuery.extend(jQuery.easing, {
-            def: 'easeOutQuad',
-            swing: function(x, t, b, c, d) {
-                //alert(jQuery.easing.default);
-                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
-            },
-            easeInQuad: function(x, t, b, c, d) {
-                return c * (t /= d) * t + b;
-            },
-            easeOutQuad: function(x, t, b, c, d) {
-                return -c * (t /= d) * (t - 2) + b;
-            },
-            easeInOutQuad: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t + b;
-                return -c / 2 * ((--t) * (t - 2) - 1) + b;
-            },
-            easeInCubic: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t + b;
-            },
-            easeOutCubic: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t + 1) + b;
-            },
-            easeInOutCubic: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t + 2) + b;
-            },
-            easeInQuart: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t + b;
-            },
-            easeOutQuart: function(x, t, b, c, d) {
-                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
-            },
-            easeInOutQuart: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
-                return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
-            },
-            easeInQuint: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t * t + b;
-            },
-            easeOutQuint: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
-            },
-            easeInOutQuint: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
-            },
-            easeInSine: function(x, t, b, c, d) {
-                return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
-            },
-            easeOutSine: function(x, t, b, c, d) {
-                return c * Math.sin(t / d * (Math.PI / 2)) + b;
-            },
-            easeInOutSine: function(x, t, b, c, d) {
-                return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
-            },
-            easeInExpo: function(x, t, b, c, d) {
-                return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
-            },
-            easeOutExpo: function(x, t, b, c, d) {
-                return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
-            },
-            easeInOutExpo: function(x, t, b, c, d) {
-                if (t == 0) return b;
-                if (t == d) return b + c;
-                if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
-                return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
-            },
-            easeInCirc: function(x, t, b, c, d) {
-                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
-            },
-            easeOutCirc: function(x, t, b, c, d) {
-                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
-            },
-            easeInOutCirc: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
-                return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
-            },
-            easeInElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
-            },
-            easeOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
-            },
-            easeInOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d / 2) == 2) return b + c;
-                if (!p) p = d * (.3 * 1.5);
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
-                    p)) + b;
-                return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
-            },
-            easeInBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * (t /= d) * t * ((s + 1) * t - s) + b;
-            },
-            easeOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
-            },
-            easeInOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
-                return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
-            },
-            easeInBounce: function(x, t, b, c, d) {
-                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
-            },
-            easeOutBounce: function(x, t, b, c, d) {
-                if ((t /= d) < (1 / 2.75)) {
-                    return c * (7.5625 * t * t) + b;
-                } else if (t < (2 / 2.75)) {
-                    return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
-                } else if (t < (2.5 / 2.75)) {
-                    return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
-                } else {
-                    return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
-                }
-            },
-            easeInOutBounce: function(x, t, b, c, d) {
-                if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
-                return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
-            }
-        });
-    </script>
+        </script>
 
 
 
@@ -1093,186 +800,186 @@
 
 
 
-    <script type="text/javascript">
-        $(function() {
-            var u17842span = $('span.u17842'),
-                initialvalue = u17842span.text();
-            u17842span.text('0');
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 1000) {
-                    u17842span
-                        .prop('Counter', 0)
-                        .animate({
-                            'Counter': initialvalue
-                        }, {
-                            duration: 3200,
-                            easing: 'linear',
-                            step: function(now) {
-                                u17842span.text(Math.ceil(now));
-                            }
-                        });
-                    return;
+        <script type="text/javascript">
+            $(function() {
+                var u17836span = $('span.u17836'),
+                    initialvalue = u17836span.text();
+                u17836span.text('0');
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 1000) {
+                        u17836span
+                            .prop('Counter', 0)
+                            .animate({
+                                'Counter': initialvalue
+                            }, {
+                                duration: 3200,
+                                easing: 'linear',
+                                step: function(now) {
+                                    u17836span.text(Math.ceil(now));
+                                }
+                            });
+                        return;
+                    }
+                });
+            });
+        </script>
+
+
+        <script type="text/javascript">
+            // t: current time, b: begInnIng value, c: change In value, d: duration
+            jQuery.easing['jswing'] = jQuery.easing['swing'];
+
+            jQuery.extend(jQuery.easing, {
+                def: 'easeOutQuad',
+                swing: function(x, t, b, c, d) {
+                    //alert(jQuery.easing.default);
+                    return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+                },
+                easeInQuad: function(x, t, b, c, d) {
+                    return c * (t /= d) * t + b;
+                },
+                easeOutQuad: function(x, t, b, c, d) {
+                    return -c * (t /= d) * (t - 2) + b;
+                },
+                easeInOutQuad: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t + b;
+                    return -c / 2 * ((--t) * (t - 2) - 1) + b;
+                },
+                easeInCubic: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t + b;
+                },
+                easeOutCubic: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t + 1) + b;
+                },
+                easeInOutCubic: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t + 2) + b;
+                },
+                easeInQuart: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t + b;
+                },
+                easeOutQuart: function(x, t, b, c, d) {
+                    return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+                },
+                easeInOutQuart: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
+                    return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
+                },
+                easeInQuint: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t * t + b;
+                },
+                easeOutQuint: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+                },
+                easeInOutQuint: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
+                },
+                easeInSine: function(x, t, b, c, d) {
+                    return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
+                },
+                easeOutSine: function(x, t, b, c, d) {
+                    return c * Math.sin(t / d * (Math.PI / 2)) + b;
+                },
+                easeInOutSine: function(x, t, b, c, d) {
+                    return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
+                },
+                easeInExpo: function(x, t, b, c, d) {
+                    return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+                },
+                easeOutExpo: function(x, t, b, c, d) {
+                    return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+                },
+                easeInOutExpo: function(x, t, b, c, d) {
+                    if (t == 0) return b;
+                    if (t == d) return b + c;
+                    if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+                    return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+                },
+                easeInCirc: function(x, t, b, c, d) {
+                    return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+                },
+                easeOutCirc: function(x, t, b, c, d) {
+                    return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+                },
+                easeInOutCirc: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
+                    return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+                },
+                easeInElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
+                },
+                easeOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
+                },
+                easeInOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d / 2) == 2) return b + c;
+                    if (!p) p = d * (.3 * 1.5);
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
+                        p)) + b;
+                    return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
+                },
+                easeInBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * (t /= d) * t * ((s + 1) * t - s) + b;
+                },
+                easeOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+                },
+                easeInOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
+                    return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
+                },
+                easeInBounce: function(x, t, b, c, d) {
+                    return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+                },
+                easeOutBounce: function(x, t, b, c, d) {
+                    if ((t /= d) < (1 / 2.75)) {
+                        return c * (7.5625 * t * t) + b;
+                    } else if (t < (2 / 2.75)) {
+                        return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
+                    } else if (t < (2.5 / 2.75)) {
+                        return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
+                    } else {
+                        return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
+                    }
+                },
+                easeInOutBounce: function(x, t, b, c, d) {
+                    if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
+                    return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
                 }
             });
-        });
-    </script>
-
-
-    <script type="text/javascript">
-        // t: current time, b: begInnIng value, c: change In value, d: duration
-        jQuery.easing['jswing'] = jQuery.easing['swing'];
-
-        jQuery.extend(jQuery.easing, {
-            def: 'easeOutQuad',
-            swing: function(x, t, b, c, d) {
-                //alert(jQuery.easing.default);
-                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
-            },
-            easeInQuad: function(x, t, b, c, d) {
-                return c * (t /= d) * t + b;
-            },
-            easeOutQuad: function(x, t, b, c, d) {
-                return -c * (t /= d) * (t - 2) + b;
-            },
-            easeInOutQuad: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t + b;
-                return -c / 2 * ((--t) * (t - 2) - 1) + b;
-            },
-            easeInCubic: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t + b;
-            },
-            easeOutCubic: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t + 1) + b;
-            },
-            easeInOutCubic: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t + 2) + b;
-            },
-            easeInQuart: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t + b;
-            },
-            easeOutQuart: function(x, t, b, c, d) {
-                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
-            },
-            easeInOutQuart: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
-                return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
-            },
-            easeInQuint: function(x, t, b, c, d) {
-                return c * (t /= d) * t * t * t * t + b;
-            },
-            easeOutQuint: function(x, t, b, c, d) {
-                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
-            },
-            easeInOutQuint: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
-                return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
-            },
-            easeInSine: function(x, t, b, c, d) {
-                return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
-            },
-            easeOutSine: function(x, t, b, c, d) {
-                return c * Math.sin(t / d * (Math.PI / 2)) + b;
-            },
-            easeInOutSine: function(x, t, b, c, d) {
-                return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
-            },
-            easeInExpo: function(x, t, b, c, d) {
-                return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
-            },
-            easeOutExpo: function(x, t, b, c, d) {
-                return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
-            },
-            easeInOutExpo: function(x, t, b, c, d) {
-                if (t == 0) return b;
-                if (t == d) return b + c;
-                if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
-                return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
-            },
-            easeInCirc: function(x, t, b, c, d) {
-                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
-            },
-            easeOutCirc: function(x, t, b, c, d) {
-                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
-            },
-            easeInOutCirc: function(x, t, b, c, d) {
-                if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
-                return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
-            },
-            easeInElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
-            },
-            easeOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d) == 1) return b + c;
-                if (!p) p = d * .3;
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
-            },
-            easeInOutElastic: function(x, t, b, c, d) {
-                var s = 1.70158;
-                var p = 0;
-                var a = c;
-                if (t == 0) return b;
-                if ((t /= d / 2) == 2) return b + c;
-                if (!p) p = d * (.3 * 1.5);
-                if (a < Math.abs(c)) {
-                    a = c;
-                    var s = p / 4;
-                } else var s = p / (2 * Math.PI) * Math.asin(c / a);
-                if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
-                    p)) + b;
-                return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
-            },
-            easeInBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * (t /= d) * t * ((s + 1) * t - s) + b;
-            },
-            easeOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
-            },
-            easeInOutBack: function(x, t, b, c, d, s) {
-                if (s == undefined) s = 1.70158;
-                if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
-                return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
-            },
-            easeInBounce: function(x, t, b, c, d) {
-                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
-            },
-            easeOutBounce: function(x, t, b, c, d) {
-                if ((t /= d) < (1 / 2.75)) {
-                    return c * (7.5625 * t * t) + b;
-                } else if (t < (2 / 2.75)) {
-                    return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
-                } else if (t < (2.5 / 2.75)) {
-                    return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
-                } else {
-                    return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
-                }
-            },
-            easeInOutBounce: function(x, t, b, c, d) {
-                if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
-                return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
-            }
-        });
-    </script>
+        </script>
 
 
 
@@ -1283,29 +990,219 @@
 
 
 
-    <script type="text/javascript">
-        $(function() {
-            var u17860span = $('span.u17860'),
-                initialvalue = u17860span.text();
-            u17860span.text('0');
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 1000) {
-                    u17860span
-                        .prop('Counter', 0)
-                        .animate({
-                            'Counter': initialvalue
-                        }, {
-                            duration: 3200,
-                            easing: 'linear',
-                            step: function(now) {
-                                u17860span.text(Math.ceil(now));
-                            }
-                        });
-                    return;
+        <script type="text/javascript">
+            $(function() {
+                var u17842span = $('span.u17842'),
+                    initialvalue = u17842span.text();
+                u17842span.text('0');
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 1000) {
+                        u17842span
+                            .prop('Counter', 0)
+                            .animate({
+                                'Counter': initialvalue
+                            }, {
+                                duration: 3200,
+                                easing: 'linear',
+                                step: function(now) {
+                                    u17842span.text(Math.ceil(now));
+                                }
+                            });
+                        return;
+                    }
+                });
+            });
+        </script>
+
+
+        <script type="text/javascript">
+            // t: current time, b: begInnIng value, c: change In value, d: duration
+            jQuery.easing['jswing'] = jQuery.easing['swing'];
+
+            jQuery.extend(jQuery.easing, {
+                def: 'easeOutQuad',
+                swing: function(x, t, b, c, d) {
+                    //alert(jQuery.easing.default);
+                    return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+                },
+                easeInQuad: function(x, t, b, c, d) {
+                    return c * (t /= d) * t + b;
+                },
+                easeOutQuad: function(x, t, b, c, d) {
+                    return -c * (t /= d) * (t - 2) + b;
+                },
+                easeInOutQuad: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t + b;
+                    return -c / 2 * ((--t) * (t - 2) - 1) + b;
+                },
+                easeInCubic: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t + b;
+                },
+                easeOutCubic: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t + 1) + b;
+                },
+                easeInOutCubic: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t + 2) + b;
+                },
+                easeInQuart: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t + b;
+                },
+                easeOutQuart: function(x, t, b, c, d) {
+                    return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+                },
+                easeInOutQuart: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
+                    return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
+                },
+                easeInQuint: function(x, t, b, c, d) {
+                    return c * (t /= d) * t * t * t * t + b;
+                },
+                easeOutQuint: function(x, t, b, c, d) {
+                    return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+                },
+                easeInOutQuint: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
+                    return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
+                },
+                easeInSine: function(x, t, b, c, d) {
+                    return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
+                },
+                easeOutSine: function(x, t, b, c, d) {
+                    return c * Math.sin(t / d * (Math.PI / 2)) + b;
+                },
+                easeInOutSine: function(x, t, b, c, d) {
+                    return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
+                },
+                easeInExpo: function(x, t, b, c, d) {
+                    return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+                },
+                easeOutExpo: function(x, t, b, c, d) {
+                    return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+                },
+                easeInOutExpo: function(x, t, b, c, d) {
+                    if (t == 0) return b;
+                    if (t == d) return b + c;
+                    if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+                    return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+                },
+                easeInCirc: function(x, t, b, c, d) {
+                    return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+                },
+                easeOutCirc: function(x, t, b, c, d) {
+                    return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+                },
+                easeInOutCirc: function(x, t, b, c, d) {
+                    if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
+                    return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+                },
+                easeInElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
+                },
+                easeOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d) == 1) return b + c;
+                    if (!p) p = d * .3;
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
+                },
+                easeInOutElastic: function(x, t, b, c, d) {
+                    var s = 1.70158;
+                    var p = 0;
+                    var a = c;
+                    if (t == 0) return b;
+                    if ((t /= d / 2) == 2) return b + c;
+                    if (!p) p = d * (.3 * 1.5);
+                    if (a < Math.abs(c)) {
+                        a = c;
+                        var s = p / 4;
+                    } else var s = p / (2 * Math.PI) * Math.asin(c / a);
+                    if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) /
+                        p)) + b;
+                    return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
+                },
+                easeInBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * (t /= d) * t * ((s + 1) * t - s) + b;
+                },
+                easeOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+                },
+                easeInOutBack: function(x, t, b, c, d, s) {
+                    if (s == undefined) s = 1.70158;
+                    if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= (1.525)) + 1) * t - s)) + b;
+                    return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
+                },
+                easeInBounce: function(x, t, b, c, d) {
+                    return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+                },
+                easeOutBounce: function(x, t, b, c, d) {
+                    if ((t /= d) < (1 / 2.75)) {
+                        return c * (7.5625 * t * t) + b;
+                    } else if (t < (2 / 2.75)) {
+                        return c * (7.5625 * (t -= (1.5 / 2.75)) * t + .75) + b;
+                    } else if (t < (2.5 / 2.75)) {
+                        return c * (7.5625 * (t -= (2.25 / 2.75)) * t + .9375) + b;
+                    } else {
+                        return c * (7.5625 * (t -= (2.625 / 2.75)) * t + .984375) + b;
+                    }
+                },
+                easeInOutBounce: function(x, t, b, c, d) {
+                    if (t < d / 2) return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * .5 + b;
+                    return jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * .5 + c * .5 + b;
                 }
             });
-        });
-    </script>
+        </script>
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript">
+            $(function() {
+                var u17860span = $('span.u17860'),
+                    initialvalue = u17860span.text();
+                u17860span.text('0');
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 1000) {
+                        u17860span
+                            .prop('Counter', 0)
+                            .animate({
+                                'Counter': initialvalue
+                            }, {
+                                duration: 3200,
+                                easing: 'linear',
+                                step: function(now) {
+                                    u17860span.text(Math.ceil(now));
+                                }
+                            });
+                        return;
+                    }
+                });
+            });
+        </script>
 
 </body>
 
