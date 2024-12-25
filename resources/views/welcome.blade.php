@@ -1,140 +1,2087 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="html" lang="en-US">
 
-        <title>Laravel</title>
+<head>
+    <script type="text/javascript">
+        if (typeof Muse == "undefined") window.Muse = {};
+        window.Muse.assets = {
+            required: [
+                "jquery-1.8.3.min.js",
+                "museutils.js",
+                "jquery.musemenu.js",
+                "webpro.js",
+                "musewpslideshow.js",
+                "jquery.museoverlay.js",
+                "touchswipe.js",
+                "jquery.watch.js",
+                "jquery.musepolyfill.bgsize.js",
+                "museredirect.js",
+                "jquery.scrolleffects.js",
+                "index.css",
+            ],
+            outOfDate: [],
+        };
+    </script>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <script src="scripts/museredirect.js?3899419633" type="text/javascript"></script>
 
-        <!-- Styles -->
-        <style>
-            /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, sans-serif;font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.ml-4{margin-left:1rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-px{margin-top:-1px}.mr-1{margin-right:0.25rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.h-16{height:4rem}.h-7{height:1.75rem}.h-6{height:1.5rem}.h-5{height:1.25rem}.min-h-screen{min-height:100vh}.w-auto{width:auto}.w-16{width:4rem}.w-7{width:1.75rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-6{gap:1.5rem}.gap-4{gap:1rem}.self-center{align-self:center}.rounded-lg{border-radius:0.5rem}.rounded-full{border-radius:9999px}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))}.bg-dots-darker{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(0,0,0,0.07)'/%3E%3C/svg%3E")}.from-gray-700\/50{--tw-gradient-from:rgb(55 65 81 / 0.5);--tw-gradient-to:rgb(55 65 81 / 0);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), transparent, var(--tw-gradient-to)}.bg-center{background-position:center}.stroke-red-500{stroke:#ef4444}.stroke-gray-400{stroke:#9ca3af}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-gray-500\/20{--tw-shadow-color:rgb(107 114 128 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-red-500 *::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-red-500::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.focus\:rounded-sm:focus{border-radius:0.125rem}.focus\:outline:focus{outline-style:solid}.focus\:outline-2:focus{outline-width:2px}.focus\:outline-red-500:focus{outline-color:#ef4444}.group:hover .group-hover\:stroke-gray-600{stroke:#4b5563}@media (prefers-reduced-motion: no-preference){.motion-safe\:hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}}@media (prefers-color-scheme: dark){.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:bg-gray-800\/50{background-color:rgb(31 41 55 / 0.5)}.dark\:bg-red-800\/20{background-color:rgb(153 27 27 / 0.2)}.dark\:bg-dots-lighter{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(255,255,255,0.07)'/%3E%3C/svg%3E")}.dark\:bg-gradient-to-bl{background-image:linear-gradient(to bottom left, var(--tw-gradient-stops))}.dark\:stroke-gray-600{stroke:#4b5563}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.dark\:ring-inset{--tw-ring-inset:inset}.dark\:ring-white\/5{--tw-ring-color:rgb(255 255 255 / 0.05)}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.group:hover .dark\:group-hover\:stroke-gray-400{stroke:#9ca3af}}@media (min-width: 640px){.sm\:fixed{position:fixed}.sm\:top-0{top:0px}.sm\:right-0{right:0px}.sm\:ml-0{margin-left:0px}.sm\:flex{display:flex}.sm\:items-center{align-items:center}.sm\:justify-center{justify-content:center}.sm\:justify-between{justify-content:space-between}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:gap-8{gap:2rem}.lg\:p-8{padding:2rem}}
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
-                    @auth
-                        <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+    <script type="text/javascript">
+        Muse.Redirect.redirect(
+            "desktop",
+            "tablet/index.html",
+            "phone/index.html"
+        );
+    </script>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif
-                    @endauth
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="generator" content="2015.0.2.310" />
+    <title>Home</title>
+    <link media="only screen and (max-device-width: 370px)" rel="alternate" href="http://www.com/phone/index.html" />
+    <link media="only screen and (max-device-width: 960px)" rel="alternate" href="http://www.com/tablet/index.html" />
+
+    <!-- CSS -->
+    {{-- <link rel="stylesheet" type="text/css" href="css/site_global.css?206135255" />
+    <link rel="stylesheet" type="text/css" href="css/master_a-master.css?44074231" />
+    <link rel="stylesheet" type="text/css" href="css/index.css?34817620" id="pagesheet" /> --}}
+
+    @vite('resources/css/site_global.css')
+    @vite('resources/css/master_a-master.css')
+    @vite('resources/css/index.css')
+    @vite('resources/js/app.js')
+
+    <!--[if lt IE 9]>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="css/iefonts_index.css?4185930165"
+      />
+    <![endif]-->
+    <!-- Other scripts -->
+    <script type="text/javascript">
+        document.documentElement.className += " js";
+        var __adobewebfontsappname__ = "muse";
+    </script>
+    <!-- JS includes -->
+    <script type="text/javascript">
+        document.write(
+            '\x3Cscript src="' +
+            (document.location.protocol == "https:" ? "https:" : "http:") +
+            '//webfonts.creativecloud.com/raleway:n7,n4,n5,n6:all;open-sans:n4,i4,n6:all.js" type="text/javascript">\x3C/script>'
+        );
+    </script>
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+    <![endif]-->
+    <!--custom head HTML-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="rounded-corners clearfix" id="page">
+        <!-- column -->
+        <'div class="position_content" id="page_position_content">
+            <div class="browser_width" id="u22267-bw">
+                <div class="pinned-colelem" id="u22267"><!-- simple frame --></div>
+            </div>
+            <a class="nonblock nontext Button anim_swing rounded-corners clearfix pinned-colelem" id="buttonu17284"
+                href="{{ route('login') }}"><!-- container box -->
+                <div class="clearfix grpelem" id="u17285-4">
+                    <!-- content -->
+                    <p>Login Or Register</p>
                 </div>
-            @endif
-
-            <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="flex justify-center">
-                    <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
-                        <path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="#FF2D20"/>
-                    </svg>
+            </a>
+            <div class="clearfix pinned-colelem" id="u17377">
+                <!-- group -->
+                <div class="clip_frame grpelem" id="u17287">
+                    <!-- image -->
+                    <img class="block" id="u17287_img" src="{{ asset('storage/images/heart2886.png') }}" alt=""
+                        width="35" height="31" />
                 </div>
-
-                <div class="mt-16">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                </p>
+                <div class="clearfix grpelem" id="u17283-5">
+                    <!-- content -->
+                    <p><span id="u17283">H</span>EALTHTIX</p>
+                </div>
+            </div>
+            <div class="infocontact">
+                <div class="pinned-colelem" id="u22249">
+                    <!-- custom html -->
+                    <i class="fa fa-phone"></i>
+                </div>
+                <div class="clearfix pinned-colelem" id="u17220-4">
+                    <!-- content -->
+                    <p>1-811-234-5678</p>
+                </div>
+                <div class="pinned-colelem" id="u22251">
+                    <!-- custom html -->
+                    <i class="fa fa-fax"></i>
+                </div>
+                <div class="clearfix pinned-colelem" id="u17221-4">
+                    <!-- content -->
+                    <p>1-811-234-5679</p>
+                </div>
+                <div class="pinned-colelem" id="u22253">
+                    <!-- custom html -->
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <div class="clearfix pinned-colelem" id="u17222-4">
+                    <!-- content -->
+                    <p>info@mail.com</p>
+                </div>
+            </div>
+            <div class="navber">
+                <div class="browser_width" id="u17226-bw">
+                    <div class="pinned-colelem" id="u17226"><!-- simple frame --></div>
+                </div>
+                <nav class="MenuBar clearfix pinned-colelem" id="menuu17227">
+                    <!-- horizontal box -->
+                    <div class="MenuItemContainer clearfix grpelem" id="u17228">
+                        <!-- vertical box -->
+                        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem"
+                            id="u17229" href="{{ url('/') }}"><!-- horizontal box -->
+                            <div class="MenuItemLabel NoWrap clearfix grpelem" id="u17230-4">
+                                <!-- content -->
+                                <p>Home</p>
                             </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
                         </a>
-
-                        <a href="https://laracasts.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </p>
+                    </div>
+                    <div class="MenuItemContainer clearfix grpelem" id="u17270">
+                        <!-- vertical box -->
+                        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u17271"
+                            href="{{ url('about') }}"><!-- horizontal box -->
+                            <div class="MenuItemLabel NoWrap clearfix grpelem" id="u17274-4">
+                                <!-- content -->
+                                <p>About</p>
                             </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
                         </a>
-
-                        <a href="https://laravel-news.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </p>
+                    </div>
+                    <div class="MenuItemContainer clearfix grpelem" id="u17263">
+                        <!-- vertical box -->
+                        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u17264"
+                            href="articles.html"><!-- horizontal box -->
+                            <div class="MenuItemLabel NoWrap clearfix grpelem" id="u17267-4">
+                                <!-- content -->
+                                <p>Article</p>
                             </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
                         </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="pinned-colelem" id="u22257">
+                <!-- custom html -->
+                <i class="fa fa-facebook"></i>
+            </div>
+            <div class="pinned-colelem" id="u22259">
+                <!-- custom html -->
+                <i class="fa fa-instagram"></i>
+            </div>
+            <div class="pinned-colelem" id="u22261">
+                <!-- custom html -->
+                <i class="fa fa-google-plus"></i>
+            </div>
+            <div class="pinned-colelem" id="u22263">
+                <!-- custom html -->
+                <i class="fa fa-twitter"></i>
+            </div>
+            <div class="pinned-colelem" id="u22265">
+                <!-- custom html -->
+                <i class="fa fa-pinterest"></i>
+            </div>
 
-                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Forge</a>, <a href="https://vapor.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Vapor</a>, <a href="https://nova.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Nova</a>, and <a href="https://envoyer.io" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Telescope</a>, and more.
-                                </p>
-                            </div>
+            <div class="SlideShowWidget clearfix align_parts_to_page mse_pre_init" id="slideshowu75">
+                <!-- none box -->
+                <div class="popup_anchor" id="u81popup">
+                    <div class="SlideShowContentPanel clearfix" id="u81">
+                        <!-- stack box -->
+                        <div class="SSSlide clip_frame grpelem" id="u17425">
+                            <!-- image -->
+                            <img class="ImageInclude" id="u17425_img" data-src="images/1920%20x%20890.jpg"
+                                src="images/blank.gif" alt="" data-width="1370" data-height="635" />
                         </div>
                     </div>
                 </div>
-
-                <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
-                        <div class="flex items-center gap-4">
-                            <a href="https://github.com/sponsors/taylorotwell" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="-mt-px mr-1 w-5 h-5 stroke-gray-400 dark:stroke-gray-600 group-hover:stroke-gray-600 dark:group-hover:stroke-gray-400">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                                </svg>
-                                Sponsor
-                            </a>
-                        </div>
+                <div class="popup_anchor" id="u88-4popup">
+                    <div class="SSPreviousButton clearfix" id="u88-4">
+                        <!-- content -->
+                        <p id="u88-2">&lt;</p>
                     </div>
-
-                    <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                </div>
+                <div class="popup_anchor" id="u80-4popup">
+                    <div class="SSNextButton clearfix" id="u80-4">
+                        <!-- content -->
+                        <p id="u80-2">&gt;</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </body>
+            <div class="clearfix colelem" id="pu17297">
+                <!-- group -->
+                <div class="browser_width grpelem" id="u17297-bw">
+                    <div id="u17297"><!-- simple frame --></div>
+                </div>
+                <div class="clearfix grpelem" id="u16122">
+                    <!-- group -->
+                    <div class="grpelem" id="u22296">
+                        <!-- custom html -->
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="clearfix grpelem" id="pu12031-4">
+                        <!-- column -->
+                        <div class="rounded-corners fadeIn clearfix colelem" id="u12031-4">
+                            <!-- content -->
+                            <p>Opening Hours</p>
+                        </div>
+                        <div class="clearfix colelem" id="u16139-10">
+                            <!-- content -->
+                            <p>- Monday - Friday</p>
+                            <p>&nbsp;&nbsp; 8:00 a.m. - 5:00 p.m.</p>
+                            <p>- Saturday - Sunday</p>
+                            <p>&nbsp;&nbsp; Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix colelem" id="pu16661">
+                <!-- group -->
+                <div class="browser_width grpelem" id="u16661-bw">
+                    <div id="u16661">
+                        <!-- column -->
+                        <div class="clearfix" id="u16661_align_to_page">
+                            <div class="clearfix colelem" id="ppu16395">
+                                <!-- group -->
+                                <div class="clearfix grpelem" id="pu16395">
+                                    <!-- column -->
+                                    <div class="clearfix colelem" id="u16395">
+                                        <!-- group -->
+                                        <div class="clearfix grpelem" id="u16397">
+                                            <!-- group -->
+                                            <div class="grpelem" id="u22299">
+                                                <!-- custom html -->
+                                                <i class="fa fa-user-md"></i>
+                                            </div>
+                                        </div>
+                                        <div class="rounded-corners clearfix grpelem" id="u16393-4">
+                                            <!-- content -->
+                                            <p>Find Doctor</p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix colelem" id="u16391">
+                                        <!-- group -->
+                                        <div class="clearfix grpelem" id="u16392-4">
+                                            <!-- content -->
+                                            <p>Know your doctor ? View their profiles here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix grpelem" id="ppu16417-4">
+                                    <!-- column -->
+                                    <div class="clearfix colelem" id="pu16417-4">
+                                        <!-- group -->
+                                        <div class="fadeIn clearfix grpelem" id="u16417-4">
+                                            <!-- content -->
+                                            <p>Berita Kesehatan Terbaru</p>
+                                        </div>
+                                        <a class="nonblock nontext Button fadeIn rounded-corners clearfix grpelem"
+                                            id="buttonu16665" href="services.html"><!-- container box -->
+                                            <div class="clearfix grpelem" id="u16667-4">
+                                                <!-- content -->
+                                                <p>View All&nbsp;&nbsp;&nbsp; &gt;</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="clearfix colelem" id="u18031-4">
+                                        <!-- content -->
+                                        <p>
+                                            Selalu up-to-date dengan informasi terbaru tentang penyakit, wabah, dan
+                                            langkah-langkah pencegahan kesehatan dari seluruh dunia
+                                        </p>
+                                    </div>
+                                    <div class="clearfix colelem" id="pu16421">
+                                        <!-- group -->
+                                        <div class="fadeIn rounded-corners grpelem" id="u16421">
+                                            <!-- simple frame -->
+                                        </div>
+                                        <div class="fadeIn rounded-corners grpelem" id="u18806">
+                                            <!-- simple frame -->
+                                        </div>
+                                        <div class="fadeIn rounded-corners grpelem" id="u18807">
+                                            <!-- simple frame -->
+                                        </div>
+                                        <div class="fadeIn rounded-corners grpelem" id="u18808">
+                                            <!-- simple frame -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="pu16422-4">
+                                <!-- group -->
+                                <div class="clearfix grpelem" id="u16422-4">
+                                    <!-- content -->
+                                    <p>Consultation</p>
+                                </div>
+                                <div class="clearfix grpelem" id="u16471-4">
+                                    <!-- content -->
+                                    <p>Dental Services</p>
+                                </div>
+                                <div class="clearfix grpelem" id="u16475-4">
+                                    <!-- content -->
+                                    <p>Vaccination</p>
+                                </div>
+                                <div class="clearfix grpelem" id="u16483-4">
+                                    <!-- content -->
+                                    <p>Health Check Up</p>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="pu16579">
+                                <!-- group -->
+                                <div class="clearfix grpelem" id="u16579">
+                                    <!-- group -->
+                                    <div class="clearfix grpelem" id="u16581">
+                                        <!-- group -->
+                                        <div class="grpelem" id="u22304">
+                                            <!-- custom html -->
+                                            <i class="fa fa-newspaper-o"></i>
+                                        </div>
+                                    </div>
+                                    <div class="rounded-corners clearfix grpelem" id="u16582-4">
+                                        <!-- content -->
+                                        <p>Recent Articles</p>
+                                    </div>
+                                </div>
+                                <div class="fadeIn clearfix grpelem" id="u22314-4">
+                                    <!-- content -->
+                                    <p>Packages and Programs</p>
+                                </div>
+                                <div class="clearfix grpelem" id="u22349">
+                                    <!-- group -->
+                                    <div class="clearfix grpelem" id="u22350">
+                                        <!-- group -->
+                                        <div class="grpelem" id="u22423">
+                                            <!-- custom html -->
+                                            <i class="fa fa-play"></i>
+                                        </div>
+                                    </div>
+                                    <div class="rounded-corners clearfix grpelem" id="u22351-4">
+                                        <!-- content -->
+                                        <p>Gallery</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="pmakeanappointment">
+                                <!-- group -->
+                                <a class="anchor_item grpelem" id="makeanappointment"></a>
+                                <div class="clearfix grpelem" id="u16580">
+                                    <!-- column -->
+                                    <div class="clearfix colelem" id="pu16588">
+                                        <!-- group -->
+                                        <div class="museBGSize grpelem" id="u16588">
+                                            <!-- simple frame -->
+                                        </div>
+                                        <div class="clearfix grpelem" id="pu16584-4">
+                                            <!-- column -->
+                                            <div class="clearfix colelem" id="u16584-4">
+                                                <!-- content -->
+                                                <p>What is Ultrasound?</p>
+                                            </div>
+                                            <a class="nonblock nontext clearfix colelem" id="u18532-4"
+                                                href="sample-article-page.html"><!-- content -->
+                                                <p>Read More&nbsp; &gt;</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix colelem" id="pu18539">
+                                        <!-- group -->
+                                        <div class="museBGSize grpelem" id="u18539">
+                                            <!-- simple frame -->
+                                        </div>
+                                        <div class="clearfix grpelem" id="pu18538-4">
+                                            <!-- column -->
+                                            <div class="clearfix colelem" id="u18538-4">
+                                                <!-- content -->
+                                                <p>Duis autem vel eum iriure dolor in hendrerit.</p>
+                                            </div>
+                                            <a class="nonblock nontext clearfix colelem" id="u18537-4"
+                                                href="sample-article-page.html"><!-- content -->
+                                                <p>Read More&nbsp; &gt;</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix colelem" id="pu18542">
+                                        <!-- group -->
+                                        <div class="museBGSize grpelem" id="u18542">
+                                            <!-- simple frame -->
+                                        </div>
+                                        <div class="clearfix grpelem" id="pu18541-4">
+                                            <!-- column -->
+                                            <div class="clearfix colelem" id="u18541-4">
+                                                <!-- content -->
+                                                <p>Duis autem vel eum iriure dolor in hendrerit.</p>
+                                            </div>
+                                            <a class="nonblock nontext clearfix colelem" id="u18540-4"
+                                                href="sample-article-page.html"><!-- content -->
+                                                <p>Read More&nbsp; &gt;</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grpelem" id="u22313"><!-- simple frame --></div>
+                            </div>
+                            <div class="fadeIn clearfix colelem" id="u16919-4">
+                                <!-- content -->
+                                <p>What Our Customer Say</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="browser_width grpelem" id="u18060-bw">
+                    <div id="u18060">
+                        <!-- group -->
+                        <div class="clearfix" id="u18060_align_to_page">
+                            <div class="clearfix grpelem" id="pu16688-4">
+                                <!-- column -->
+                                <div class="fadeIn clearfix colelem" id="u16688-4">
+                                    <!-- content -->
+                                    <p>Make an Appointment</p>
+                                </div>
+                                <div class="rounded-corners clearfix colelem" id="u16811-4">
+                                    <!-- content -->
+                                    <p>
+                                        If you would like us to select a doctor for you, then
+                                        please fill out the preferred time and date of your
+                                        appointment below
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="clearfix grpelem" id="pu16603">
+                                <!-- column -->
+                                <div class="clearfix colelem" id="u16603">
+                                    <!-- group -->
+                                    <div class="clearfix grpelem" id="u16604">
+                                        <!-- group -->
+                                        <div class="grpelem" id="u22425">
+                                            <!-- custom html -->
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                    </div>
+                                    <div class="fadeIn clearfix grpelem" id="u16608-4">
+                                        <!-- content -->
+                                        <p>Map</p>
+                                    </div>
+                                </div>
+                                <div class="colelem" id="u16614">
+                                    <!-- custom html -->
+
+                                    <iframe class="actAsDiv" width="269" height="456" frameborder="0"
+                                        scrolling="no" marginheight="0" marginwidth="0"
+                                        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=Adobe%20Systems%20Inc%2C%20Park%20Avenue%2C%20San%20Jose%2C%20CA&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="browser_width grpelem" id="u16640-bw">
+                    <div id="u16640"><!-- simple frame --></div>
+                </div>
+                <div class="browser_width grpelem" id="u16510-bw">
+                    <div class="museBGSize" id="u16510">
+                        <!-- group -->
+                        <div class="clearfix" id="u16510_align_to_page">
+                            <div class="fadeIn rounded-corners grpelem" id="u16511">
+                                <!-- simple frame -->
+                            </div>
+                            <div class="clearfix grpelem" id="pu16528-4">
+                                <!-- column -->
+                                <div class="fadeIn clearfix colelem" id="u16528-4">
+                                    <!-- content -->
+                                    <p>About Us</p>
+                                </div>
+                                <div class="rounded-corners clearfix colelem" id="u16534-4">
+                                    <!-- content -->
+                                    <p>Kelompok 4 : </p>
+                                    <p>Vivi Intan Sari</p>
+                                    <p>Aawali Salsabila</p>
+                                    <p>Mariana Angelica Putri De Rozary</p>
+                                    <p>Ario</p>
+                                    <p>Husein</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Button fadeIn rounded-corners clearfix grpelem" id="buttonu17382">
+                    <!-- container box -->
+                    <div class="clearfix grpelem" id="u17384-4">
+                        <!-- content -->
+                        <p>Read More&nbsp; &gt;</p>
+                    </div>
+                </div>
+                <form class="form-grp clearfix grpelem" id="widgetu16822" method="post"
+                    enctype="multipart/form-data" action="scripts/form-u16822.php">
+                    <!-- none box -->
+                    <div class="fld-grp clearfix grpelem" id="widgetu16838" data-required="true">
+                        <!-- none box -->
+                        <label class="fld-label actAsDiv clearfix grpelem" id="u16839-4"
+                            for="widgetu16838_input"><!-- content --><span class="actAsPara">Name *</span></label>
+                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16841-4"><!-- content --><input
+                                class="wrapped-input" type="text" spellcheck="false" id="widgetu16838_input"
+                                name="custom_U16838" tabindex="1" /><label class="wrapped-input fld-prompt"
+                                id="widgetu16838_prompt" for="widgetu16838_input"><span class="actAsPara">Your&nbsp;
+                                    Name</span></label></span>
+                    </div>
+                    <div class="fld-grp clearfix grpelem" id="widgetu16829" data-required="true" data-type="email">
+                        <!-- none box -->
+                        <label class="fld-label actAsDiv clearfix grpelem" id="u16832-4"
+                            for="widgetu16829_input"><!-- content --><span class="actAsPara">Email *</span></label>
+                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16830-4"><!-- content --><input
+                                class="wrapped-input" type="text" spellcheck="false" id="widgetu16829_input"
+                                name="Email" tabindex="3" /><label class="wrapped-input fld-prompt"
+                                id="widgetu16829_prompt" for="widgetu16829_input"><span class="actAsPara">Your
+                                    Email</span></label></span>
+                    </div>
+                    <div class="clearfix grpelem" id="u16837-4">
+                        <!-- content -->
+                        <p>Submitting Form...</p>
+                    </div>
+                    <div class="clearfix grpelem" id="u16828-4">
+                        <!-- content -->
+                        <p>The server encountered an error.</p>
+                    </div>
+                    <div class="clearfix grpelem" id="u16842-4">
+                        <!-- content -->
+                        <p>Form received.</p>
+                    </div>
+                    <input class="submit-btn NoWrap grpelem" id="u16827-17" type="submit" value=""
+                        tabindex="8" /><!-- state-based BG images -->
+                    <div class="fld-grp clearfix grpelem" id="widgetu16833" data-required="true">
+                        <!-- none box -->
+                        <label class="fld-label actAsDiv clearfix grpelem" id="u16835-4"
+                            for="widgetu16833_input"><!-- content --><span class="actAsPara">Message *</span></label>
+                        <span class="fld-textarea actAsDiv clearfix grpelem" id="u16836-4"><!-- content -->
+                            <textarea class="wrapped-input" id="widgetu16833_input" name="custom_U16833" tabindex="7"></textarea><label class="wrapped-input fld-prompt" id="widgetu16833_prompt"
+                                for="widgetu16833_input"><span class="actAsPara">Please
+                                    state the reasons for your appointment</span></label>
+                        </span>
+                    </div>
+                    <div class="fld-grp clearfix grpelem" id="widgetu16823" data-required="true">
+                        <!-- none box -->
+                        <label class="fld-label actAsDiv clearfix grpelem" id="u16826-4"
+                            for="widgetu16823_input"><!-- content --><span class="actAsPara">Phone *</span></label>
+                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16824-4"><!-- content --><input
+                                class="wrapped-input" type="text" id="widgetu16823_input" name="custom_U16823"
+                                tabindex="4" /><label class="wrapped-input fld-prompt" id="widgetu16823_prompt"
+                                for="widgetu16823_input"><span class="actAsPara">Your&nbsp; Phone
+                                    number</span></label></span>
+                    </div>
+                    <div class="fld-grp clearfix grpelem" id="widgetu16850" data-required="true">
+                        <!-- none box -->
+                        <label class="fld-label actAsDiv clearfix grpelem" id="u16852-4"
+                            for="widgetu16850_input"><!-- content --><span class="actAsPara">Date *</span></label>
+                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16851-4"><!-- content --><input
+                                class="wrapped-input" type="text" spellcheck="false" id="widgetu16850_input"
+                                name="custom_U16850" tabindex="5" /><label class="wrapped-input fld-prompt"
+                                id="widgetu16850_prompt" for="widgetu16850_input"><span class="actAsPara">Enter
+                                    Date</span></label></span>
+                    </div>
+                    <div class="fld-grp clearfix grpelem" id="widgetu16854" data-required="true">
+                        <!-- none box -->
+                        <label class="fld-label actAsDiv clearfix grpelem" id="u16855-4"
+                            for="widgetu16854_input"><!-- content --><span class="actAsPara">Time *</span></label>
+                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16857-4"><!-- content --><input
+                                class="wrapped-input" type="text" id="widgetu16854_input" name="custom_U16854"
+                                tabindex="6" /><label class="wrapped-input fld-prompt" id="widgetu16854_prompt"
+                                for="widgetu16854_input"><span class="actAsPara">Enter Time</span></label></span>
+                    </div>
+                    <div class="fld-grp clearfix grpelem" id="widgetu16883" data-required="true">
+                        <!-- none box -->
+                        <label class="fld-label actAsDiv clearfix grpelem" id="u16884-4"
+                            for="widgetu16883_input"><!-- content --><span class="actAsPara">Gender *</span></label>
+                        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u16886-4"><!-- content --><input
+                                class="wrapped-input" type="text" id="widgetu16883_input" name="custom_U16883"
+                                tabindex="2" /><label class="wrapped-input fld-prompt" id="widgetu16883_prompt"
+                                for="widgetu16883_input"><span class="actAsPara">Your Gender</span></label></span>
+                    </div>
+                </form>
+                <div class="browser_width grpelem" id="u16999-bw">
+                    <div id="u16999"><!-- simple frame --></div>
+                </div>
+                <div class="browser_width grpelem" id="u17000-bw">
+                    <div class="museBGSize" id="u17000">
+                        <!-- group -->
+                        <div class="clearfix" id="u17000_align_to_page">
+                            <div class="clearfix grpelem" id="pu17001">
+                                <!-- column -->
+                                <div class="colelem" id="u17001">
+                                    <!-- custom html -->
+
+                                    <span class="u17001">40</span>
+                                </div>
+                                <div class="clearfix colelem" id="u17006-4">
+                                    <!-- content -->
+                                    <p>Years of Experience</p>
+                                </div>
+                            </div>
+                            <div class="clearfix grpelem" id="pu17009">
+                                <!-- column -->
+                                <div class="colelem" id="u17009">
+                                    <!-- custom html -->
+
+                                    <span class="u17009">8000</span>
+                                </div>
+                                <div class="clearfix colelem" id="u17011-4">
+                                    <!-- content -->
+                                    <p>People Like Us</p>
+                                </div>
+                            </div>
+                            <div class="clearfix grpelem" id="pu17012">
+                                <!-- column -->
+                                <div class="colelem" id="u17012">
+                                    <!-- custom html -->
+
+                                    <span class="u17012">87</span>
+                                </div>
+                                <div class="clearfix colelem" id="u17014-4">
+                                    <!-- content -->
+                                    <p>Our Professional Doctor</p>
+                                </div>
+                            </div>
+                            <div class="clearfix grpelem" id="pu17018">
+                                <!-- column -->
+                                <div class="colelem" id="u17018">
+                                    <!-- custom html -->
+
+                                    <span class="u17018">600</span>
+                                </div>
+                                <div class="clearfix colelem" id="u17020-4">
+                                    <!-- content -->
+                                    <p>Patients Satisfied</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="PamphletWidget clearfix grpelem" id="pamphletu17023">
+                    <!-- none box -->
+                    <div class="ThumbGroup clearfix grpelem" id="u17024">
+                        <!-- none box -->
+                        <div class="popup_anchor">
+                            <div class="Thumb popup_element rounded-corners" id="u17026">
+                                <!-- simple frame -->
+                            </div>
+                        </div>
+                        <div class="popup_anchor">
+                            <div class="Thumb popup_element rounded-corners" id="u17190">
+                                <!-- simple frame -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup_anchor" id="u17029popup">
+                        <div class="ContainerGroup clearfix" id="u17029">
+                            <!-- stack box -->
+                            <div class="Container clearfix grpelem" id="u17030">
+                                <!-- column -->
+                                <div class="clearfix colelem" id="u17031-4">
+                                    <!-- content -->
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                        magna aliquam erat
+                                    </p>
+                                </div>
+                                <div class="rounded-corners colelem" id="u17058">
+                                    <!-- simple frame -->
+                                </div>
+                                <div class="clearfix colelem" id="u17032-4">
+                                    <!-- content -->
+                                    <p>Kane Doe</p>
+                                </div>
+                            </div>
+                            <div class="Container invi clearfix grpelem" id="u17191">
+                                <!-- column -->
+                                <div class="clearfix colelem" id="u17203-4">
+                                    <!-- content -->
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                        magna aliquam erat
+                                    </p>
+                                </div>
+                                <div class="rounded-corners colelem" id="u17205">
+                                    <!-- simple frame -->
+                                </div>
+                                <div class="clearfix colelem" id="u17204-4">
+                                    <!-- content -->
+                                    <p>Jane&nbsp; Doe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="PamphletWidget clearfix grpelem" id="pamphletu22316">
+                    <!-- none box -->
+                    <div class="ThumbGroup clearfix grpelem" id="u22340">
+                        <!-- none box -->
+                        <div class="popup_anchor">
+                            <div class="Thumb popup_element rounded-corners" id="u22341">
+                                <!-- simple frame -->
+                            </div>
+                        </div>
+                        <div class="popup_anchor">
+                            <div class="Thumb popup_element rounded-corners" id="u22342">
+                                <!-- simple frame -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup_anchor" id="u22317popup">
+                        <div class="ContainerGroup clearfix" id="u22317">
+                            <!-- stack box -->
+                            <div class="Container clearfix grpelem" id="u22329">
+                                <!-- group -->
+                                <div class="clearfix grpelem" id="pu22333">
+                                    <!-- column -->
+                                    <div class="rounded-corners colelem" id="u22333">
+                                        <!-- simple frame -->
+                                    </div>
+                                    <div class="rounded-corners colelem" id="u22337">
+                                        <!-- simple frame -->
+                                    </div>
+                                </div>
+                                <div class="clearfix grpelem" id="pu22332-4">
+                                    <!-- column -->
+                                    <div class="clearfix colelem" id="u22332-4">
+                                        <!-- content -->
+                                        <p>Maternity Package 2015</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22339-4">
+                                        <!-- content -->
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                            elit, sed diam
+                                        </p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22330-4">
+                                        <!-- content -->
+                                        <p>Valid: July 02, 2015 - July 31, 2015</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22334-4">
+                                        <!-- content -->
+                                        <p>Read More&nbsp; &gt;</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22338-4">
+                                        <!-- content -->
+                                        <p>Influenza Vaccine</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22335-4">
+                                        <!-- content -->
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                            elit, sed diam
+                                        </p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22336-4">
+                                        <!-- content -->
+                                        <p>Valid: July 02, 2015 - July 31, 2015</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22331-4">
+                                        <!-- content -->
+                                        <p>Read More&nbsp; &gt;</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Container invi clearfix grpelem" id="u22318">
+                                <!-- group -->
+                                <div class="clearfix grpelem" id="pu22327">
+                                    <!-- column -->
+                                    <div class="rounded-corners colelem" id="u22327">
+                                        <!-- simple frame -->
+                                    </div>
+                                    <div class="rounded-corners colelem" id="u22324">
+                                        <!-- simple frame -->
+                                    </div>
+                                </div>
+                                <div class="clearfix grpelem" id="pu22323-4">
+                                    <!-- column -->
+                                    <div class="clearfix colelem" id="u22323-4">
+                                        <!-- content -->
+                                        <p>Health &amp; Beauty Acupuncture Packages.</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22325-4">
+                                        <!-- content -->
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                            elit, sed diam
+                                        </p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22322-4">
+                                        <!-- content -->
+                                        <p>Valid: July 02, 2015 - July 31, 2015</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22326-4">
+                                        <!-- content -->
+                                        <p>Read More&nbsp; &gt;</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22328-6">
+                                        <!-- content -->
+                                        <p>Health Check-Ups at Hospital</p>
+                                        <p>Packages</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22319-4">
+                                        <!-- content -->
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                            elit, sed diam
+                                        </p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22320-4">
+                                        <!-- content -->
+                                        <p>Valid: July 02, 2015 - July 31, 2015</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u22321-4">
+                                        <!-- content -->
+                                        <p>Read More&nbsp; &gt;</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="SlideShowWidget clearfix grpelem" id="slideshowu22353">
+                    <!-- none box -->
+                    <div class="popup_anchor" id="u22354popup">
+                        <div class="SlideShowContentPanel clearfix" id="u22354">
+                            <!-- stack box -->
+                            <div class="SSSlide clip_frame clearfix grpelem" id="u22355">
+                                <!-- image -->
+                                <div id="u22355_clip">
+                                    <img class="ImageInclude position_content" id="u22355_img"
+                                        data-src="images/400%20x%20400.jpg" src="images/blank.gif" alt=""
+                                        data-width="329" data-height="329" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup_anchor" id="u22363-4popup">
+                        <div class="SSPreviousButton clearfix" id="u22363-4">
+                            <!-- content -->
+                            <p>&lt;</p>
+                        </div>
+                    </div>
+                    <div class="popup_anchor" id="u22368-4popup">
+                        <div class="SSNextButton clearfix" id="u22368-4">
+                            <!-- content -->
+                            <p>&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="verticalspacer"></div>
+            <div class="browser_width colelem" id="u17154-bw">
+                <div id="u17154">
+                    <!-- group -->
+                    <div class="clearfix" id="u17154_align_to_page">
+                        <div class="clearfix grpelem" id="pu17172-4">
+                            <!-- column -->
+                            <div class="clearfix colelem" id="u17172-4">
+                                <!-- content -->
+                                <p>About Us</p>
+                            </div>
+                            <div class="clearfix colelem" id="u17156-4">
+                                <!-- content -->
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clearfix grpelem" id="pu17173-4">
+                            <!-- column -->
+                            <div class="clearfix colelem" id="u17173-4">
+                                <!-- content -->
+                                <p>Our Hospital</p>
+                            </div>
+                            <div class="clearfix colelem" id="u17157-10">
+                                <!-- content -->
+                                <p>- Medical Services</p>
+                                <p>- Patient Guides</p>
+                                <p>- Find Doctor</p>
+                                <p>- News</p>
+                            </div>
+                        </div>
+                        <div class="clearfix grpelem" id="pu17162-4">
+                            <!-- column -->
+                            <div class="clearfix colelem" id="u17162-4">
+                                <!-- content -->
+                                <p>Our Info</p>
+                            </div>
+                            <div class="clearfix colelem" id="pu22429">
+                                <!-- group -->
+                                <div class="grpelem" id="u22429">
+                                    <!-- custom html -->
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="clearfix grpelem" id="u17158-4">
+                                    <!-- content -->
+                                    <p>999&nbsp; Street Ca 70079</p>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="pu22431">
+                                <!-- group -->
+                                <div class="grpelem" id="u22431">
+                                    <!-- custom html -->
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="clearfix grpelem" id="u17159-4">
+                                    <!-- content -->
+                                    <p>1-811-234-5678</p>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="pu22433">
+                                <!-- group -->
+                                <div class="grpelem" id="u22433">
+                                    <!-- custom html -->
+                                    <i class="fa fa-fax"></i>
+                                </div>
+                                <div class="clearfix grpelem" id="u17160-4">
+                                    <!-- content -->
+                                    <p>1-811-234-5679</p>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="pu22435">
+                                <!-- group -->
+                                <div class="grpelem" id="u22435">
+                                    <!-- custom html -->
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="clearfix grpelem" id="u17161-4">
+                                    <!-- content -->
+                                    <p>info@mail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="browser_width colelem" id="u17155-bw">
+                <div id="u17155">
+                    <!-- group -->
+                    <div class="clearfix" id="u17155_align_to_page">
+                        <div class="clip_frame grpelem" id="u17182">
+                            <!-- image -->
+                            <img class="block" id="u17182_img" src="{{ asset('storage/images/heart2886.png') }}"
+                                alt="" width="29" height="26" />
+                        </div>
+                        <div class="clearfix grpelem" id="u17181-5">
+                            <!-- content -->
+                            <p><span id="u17181">H</span>EALTHTIX</p>
+                        </div>
+                        <div class="clearfix grpelem" id="u17163-5">
+                            <!-- content -->
+                            <p id="u17163-2">Copyright © 2024 Kelompokq 4.</p>
+                            <p id="u17163-3">&nbsp;</p>
+                        </div>
+                        <div class="grpelem" id="u17322">
+                            <!-- custom html -->
+                            <script>
+                                $(".fadeInUp").addClass("wow fadeInUp");
+                                $(".fadeInDown").addClass("wow fadeInDown");
+                                $(".fadeInLeft").addClass("wow fadeInLeft");
+                                $(".fadeInRight").addClass("wow fadeInRight");
+                                $(".fadeIn").addClass("wow fadeIn");
+                                $(".zoomIn").addClass("wow zoomIn");
+                            </script>
+
+                            <script>
+                                new WOW().init();
+                            </script>
+                        </div>
+                        <div class="grpelem" id="u22268">
+                            <!-- custom html -->
+                            <i class="fa fa-facebook"></i>
+                        </div>
+                        <div class="grpelem" id="u22270">
+                            <!-- custom html -->
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="grpelem" id="u22272">
+                            <!-- custom html -->
+                            <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="grpelem" id="u22274">
+                            <!-- custom html -->
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="grpelem" id="u22276">
+                            <!-- custom html -->
+                            <i class="fa fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <div class="preload_images">
+        <img class="preload" src="{{ asset('images/u16827-17-r.png') }}" alt="" />
+        <img class="preload" src="{{ asset('images/u16827-17-m.png') }}" alt="" />
+        <img class="preload" src="{{ asset('images/u16827-17-fs.png') }}" alt="" />
+    </div>
+    <!-- JS includes -->
+    <script type="text/javascript">
+        if (document.location.protocol != "https:")
+            document.write(
+                '\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>'
+            );
+    </script>
+    <script type="text/javascript">
+        window.jQuery ||
+            document.write(
+                '\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>'
+            );
+    </script>
+    <script src="scripts/museutils.js?275725342" type="text/javascript"></script>
+    <script src="scripts/jquery.musemenu.js?4042164668" type="text/javascript"></script>
+    <script src="scripts/webpro.js?3883484123" type="text/javascript"></script>
+    <script src="scripts/musewpslideshow.js?360574455" type="text/javascript"></script>
+    <script src="scripts/jquery.museoverlay.js?342093292" type="text/javascript"></script>
+    <script src="scripts/touchswipe.js?4218319045" type="text/javascript"></script>
+    <script src="scripts/jquery.scrolleffects.js?206645848" type="text/javascript"></script>
+    <script src="scripts/jquery.watch.js?3999102769" type="text/javascript"></script>
+    <script src="scripts/jquery.musepolyfill.bgsize.js?185257658" type="text/javascript"></script>
+    <!-- Other scripts -->
+    {{-- <script type="text/javascript">
+        $(document).ready(function() {
+            try {
+                (function() {
+                    var a = {},
+                        b = function(a) {
+                            if (a.match(/^rgb/))
+                                return (
+                                    (a = a
+                                        .replace(/\s+/g, "")
+                                        .match(/([\d\,]+)/gi)[0]
+                                        .split(",")),
+                                    (parseInt(a[0]) << 16) +
+                                    (parseInt(a[1]) << 8) +
+                                    parseInt(a[2])
+                                );
+                            if (a.match(/^\#/)) return parseInt(a.substr(1), 16);
+                            return 0;
+                        };
+                    (function() {
+                        $('link[type="text/css"]').each(function() {
+                            var b = ($(this).attr("href") || "").match(
+                                /\/?css\/([\w\-]+\.css)\?(\d+)/
+                            );
+                            b && b[1] && b[2] && (a[b[1]] = b[2]);
+                        });
+                    })();
+                    (function() {
+                        $("body").append(
+                            '<div class="version" style="display:none; width:1px; height:1px;"></div>'
+                        );
+                        for (
+                            var c = $(".version"), d = 0; d < Muse.assets.required.length;
+
+                        ) {
+                            var f = Muse.assets.required[d],
+                                g = f.match(/([\w\-\.]+)\.(\w+)$/),
+                                k = g && g[1] ? g[1] : null,
+                                g = g && g[2] ? g[2] : null;
+                            switch (g.toLowerCase()) {
+                                case "css":
+                                    k = k.replace(/\W/gi, "_").replace(/^([^a-z])/gi, "_$1");
+                                    c.addClass(k);
+                                    var g = b(c.css("color")),
+                                        h = b(c.css("background-color"));
+                                    g != 0 || h != 0 ?
+                                        (Muse.assets.required.splice(d, 1),
+                                            "undefined" != typeof a[f] &&
+                                            (g != a[f] >>> 24 || h != (a[f] & 16777215)) &&
+                                            Muse.assets.outOfDate.push(f)) :
+                                        d++;
+                                    c.removeClass(k);
+                                    break;
+                                case "js":
+                                    k.match(/^jquery-[\d\.]+/gi) && typeof $ != "undefined" ?
+                                        Muse.assets.required.splice(d, 1) :
+                                        d++;
+                                    break;
+                                default:
+                                    throw Error("Unsupported file type: " + g);
+                            }
+                        }
+                        c.remove();
+
+                    })();
+                })();
+                /* body */
+                Muse.Utils.transformMarkupToFixBrowserProblemsPreInit(); /* body */
+                Muse.Utils.prepHyperlinks(true); /* body */
+                Muse.Utils.initWidget(".MenuBar", function(elem) {
+                    return $(elem).museMenu();
+                }); /* unifiedNavBar */
+                Muse.Utils.initWidget("#slideshowu75", function(elem) {
+                    $(elem).data(
+                        "widget",
+                        new WebPro.Widget.ContentSlideShow(elem, {
+                            heroFitting: "fillFrameProportionally",
+                            autoPlay: true,
+                            displayInterval: 7000,
+                            slideLinkStopsSlideShow: false,
+                            transitionStyle: "fading",
+                            lightboxEnabled_runtime: false,
+                            shuffle: false,
+                            transitionDuration: 500,
+                            enableSwipe: true,
+                            elastic: "fullWidth",
+                            resumeAutoplay: true,
+                            resumeAutoplayInterval: 3000,
+                            playOnce: false,
+                            autoActivate_runtime: false,
+                        })
+                    );
+                }); /* #slideshowu75 */
+                $("#slideshowu75").registerPositionScrollEffect([{
+                        in: [-Infinity, 161],
+                        speed: [null, 1]
+                    },
+                    {
+                        in: [161, Infinity],
+                        speed: [null, 0]
+                    },
+                ]); /* scroll effect */
+                Muse.Utils.resizeHeight(); /* resize height */
+                Muse.Utils.initWidget("#widgetu16822", function(elem) {
+                    new WebPro.Widget.Form(elem, {
+                        validationEvent: "submit",
+                        errorStateSensitivity: "high",
+                        fieldWrapperClass: "fld-grp",
+                        formSubmittedClass: "frm-sub-st",
+                        formErrorClass: "frm-subm-err-st",
+                        formDeliveredClass: "frm-subm-ok-st",
+                        notEmptyClass: "non-empty-st",
+                        focusClass: "focus-st",
+                        invalidClass: "fld-err-st",
+                        requiredClass: "fld-err-st",
+                        ajaxSubmit: true,
+                    });
+                }); /* #widgetu16822 */
+                Muse.Utils.initWidget("#pamphletu17023", function(elem) {
+                    new WebPro.Widget.ContentSlideShow(elem, {
+                        contentLayout_runtime: "stack",
+                        event: "click",
+                        deactivationEvent: "none",
+                        autoPlay: false,
+                        displayInterval: 3000,
+                        transitionStyle: "vertical",
+                        transitionDuration: 1500,
+                        hideAllContentsFirst: false,
+                        shuffle: false,
+                        enableSwipe: true,
+                        resumeAutoplay: true,
+                        resumeAutoplayInterval: 3000,
+                        playOnce: false,
+                        autoActivate_runtime: false,
+                    });
+                }); /* #pamphletu17023 */
+                Muse.Utils.initWidget("#pamphletu22316", function(elem) {
+                    new WebPro.Widget.ContentSlideShow(elem, {
+                        contentLayout_runtime: "stack",
+                        event: "click",
+                        deactivationEvent: "none",
+                        autoPlay: false,
+                        displayInterval: 7000,
+                        transitionStyle: "horizontal",
+                        transitionDuration: 1000,
+                        hideAllContentsFirst: false,
+                        shuffle: false,
+                        enableSwipe: true,
+                        resumeAutoplay: true,
+                        resumeAutoplayInterval: 3000,
+                        playOnce: false,
+                        autoActivate_runtime: false,
+                    });
+                }); /* #pamphletu22316 */
+                Muse.Utils.initWidget("#slideshowu22353", function(elem) {
+                    $(elem).data(
+                        "widget",
+                        new WebPro.Widget.ContentSlideShow(elem, {
+                            autoPlay: true,
+                            displayInterval: 6000,
+                            slideLinkStopsSlideShow: false,
+                            transitionStyle: "fading",
+                            lightboxEnabled_runtime: false,
+                            shuffle: false,
+                            transitionDuration: 1500,
+                            enableSwipe: true,
+                            elastic: "off",
+                            resumeAutoplay: true,
+                            resumeAutoplayInterval: 3000,
+                            playOnce: false,
+                            autoActivate_runtime: false,
+                        })
+                    );
+                }); /* #slideshowu22353 */
+                Muse.Utils.fullPage("#page"); /* 100% height page */
+                Muse.Utils.showWidgetsWhenReady(); /* body */
+                Muse.Utils.transformMarkupToFixBrowserProblems(); /* body */
+            } catch (e) {
+                if (e && "function" == typeof e.notify) e.notify();
+                else Muse.Assert.fail("Error calling selector function:" + e);
+            }
+        });
+    </script> --}}
+
+    <!--HTML Widget code-->
+
+    <script type="text/javascript">
+        // t: current time, b: begInnIng value, c: change In value, d: duration
+        jQuery.easing["jswing"] = jQuery.easing["swing"];
+
+        jQuery.extend(jQuery.easing, {
+            def: "easeOutQuad",
+            swing: function(x, t, b, c, d) {
+                //alert(jQuery.easing.default);
+                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+            },
+            easeInQuad: function(x, t, b, c, d) {
+                return c * (t /= d) * t + b;
+            },
+            easeOutQuad: function(x, t, b, c, d) {
+                return -c * (t /= d) * (t - 2) + b;
+            },
+            easeInOutQuad: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t + b;
+                return (-c / 2) * (--t * (t - 2) - 1) + b;
+            },
+            easeInCubic: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t + b;
+            },
+            easeOutCubic: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t + 1) + b;
+            },
+            easeInOutCubic: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t + 2) + b;
+            },
+            easeInQuart: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t + b;
+            },
+            easeOutQuart: function(x, t, b, c, d) {
+                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+            },
+            easeInOutQuart: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t + b;
+                return (-c / 2) * ((t -= 2) * t * t * t - 2) + b;
+            },
+            easeInQuint: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t * t + b;
+            },
+            easeOutQuint: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+            },
+            easeInOutQuint: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t * t * t + 2) + b;
+            },
+            easeInSine: function(x, t, b, c, d) {
+                return -c * Math.cos((t / d) * (Math.PI / 2)) + c + b;
+            },
+            easeOutSine: function(x, t, b, c, d) {
+                return c * Math.sin((t / d) * (Math.PI / 2)) + b;
+            },
+            easeInOutSine: function(x, t, b, c, d) {
+                return (-c / 2) * (Math.cos((Math.PI * t) / d) - 1) + b;
+            },
+            easeInExpo: function(x, t, b, c, d) {
+                return t == 0 ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+            },
+            easeOutExpo: function(x, t, b, c, d) {
+                return t == d ? b + c : c * (-Math.pow(2, (-10 * t) / d) + 1) + b;
+            },
+            easeInOutExpo: function(x, t, b, c, d) {
+                if (t == 0) return b;
+                if (t == d) return b + c;
+                if ((t /= d / 2) < 1) return (c / 2) * Math.pow(2, 10 * (t - 1)) + b;
+                return (c / 2) * (-Math.pow(2, -10 * --t) + 2) + b;
+            },
+            easeInCirc: function(x, t, b, c, d) {
+                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+            },
+            easeOutCirc: function(x, t, b, c, d) {
+                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+            },
+            easeInOutCirc: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1)
+                    return (-c / 2) * (Math.sqrt(1 - t * t) - 1) + b;
+                return (c / 2) * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+            },
+            easeInElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    -(
+                        a *
+                        Math.pow(2, 10 * (t -= 1)) *
+                        Math.sin(((t * d - s) * (2 * Math.PI)) / p)
+                    ) + b
+                );
+            },
+            easeOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    a *
+                    Math.pow(2, -10 * t) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) +
+                    c +
+                    b
+                );
+            },
+            easeInOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d / 2) == 2) return b + c;
+                if (!p) p = d * (0.3 * 1.5);
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                if (t < 1)
+                    return (
+                        -0.5 *
+                        (a *
+                            Math.pow(2, 10 * (t -= 1)) *
+                            Math.sin(((t * d - s) * (2 * Math.PI)) / p)) +
+                        b
+                    );
+                return (
+                    a *
+                    Math.pow(2, -10 * (t -= 1)) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) *
+                    0.5 +
+                    c +
+                    b
+                );
+            },
+            easeInBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * (t /= d) * t * ((s + 1) * t - s) + b;
+            },
+            easeOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+            },
+            easeInOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                if ((t /= d / 2) < 1)
+                    return (c / 2) * (t * t * (((s *= 1.525) + 1) * t - s)) + b;
+                return (
+                    (c / 2) * ((t -= 2) * t * (((s *= 1.525) + 1) * t + s) + 2) + b
+                );
+            },
+            easeInBounce: function(x, t, b, c, d) {
+                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+            },
+            easeOutBounce: function(x, t, b, c, d) {
+                if ((t /= d) < 1 / 2.75) {
+                    return c * (7.5625 * t * t) + b;
+                } else if (t < 2 / 2.75) {
+                    return c * (7.5625 * (t -= 1.5 / 2.75) * t + 0.75) + b;
+                } else if (t < 2.5 / 2.75) {
+                    return c * (7.5625 * (t -= 2.25 / 2.75) * t + 0.9375) + b;
+                } else {
+                    return c * (7.5625 * (t -= 2.625 / 2.75) * t + 0.984375) + b;
+                }
+            },
+            easeInOutBounce: function(x, t, b, c, d) {
+                if (t < d / 2)
+                    return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * 0.5 + b;
+                return (
+                    jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * 0.5 +
+                    c * 0.5 +
+                    b
+                );
+            },
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function() {
+            var u17001span = $("span.u17001"),
+                initialvalue = u17001span.text();
+            u17001span.text("0");
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 1000) {
+                    u17001span.prop("Counter", 0).animate({
+                        Counter: initialvalue
+                    }, {
+                        duration: 3200,
+                        easing: "linear",
+                        step: function(now) {
+                            u17001span.text(Math.ceil(now));
+                        },
+                    });
+                    return;
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        // t: current time, b: begInnIng value, c: change In value, d: duration
+        jQuery.easing["jswing"] = jQuery.easing["swing"];
+
+        jQuery.extend(jQuery.easing, {
+            def: "easeOutQuad",
+            swing: function(x, t, b, c, d) {
+                //alert(jQuery.easing.default);
+                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+            },
+            easeInQuad: function(x, t, b, c, d) {
+                return c * (t /= d) * t + b;
+            },
+            easeOutQuad: function(x, t, b, c, d) {
+                return -c * (t /= d) * (t - 2) + b;
+            },
+            easeInOutQuad: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t + b;
+                return (-c / 2) * (--t * (t - 2) - 1) + b;
+            },
+            easeInCubic: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t + b;
+            },
+            easeOutCubic: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t + 1) + b;
+            },
+            easeInOutCubic: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t + 2) + b;
+            },
+            easeInQuart: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t + b;
+            },
+            easeOutQuart: function(x, t, b, c, d) {
+                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+            },
+            easeInOutQuart: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t + b;
+                return (-c / 2) * ((t -= 2) * t * t * t - 2) + b;
+            },
+            easeInQuint: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t * t + b;
+            },
+            easeOutQuint: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+            },
+            easeInOutQuint: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t * t * t + 2) + b;
+            },
+            easeInSine: function(x, t, b, c, d) {
+                return -c * Math.cos((t / d) * (Math.PI / 2)) + c + b;
+            },
+            easeOutSine: function(x, t, b, c, d) {
+                return c * Math.sin((t / d) * (Math.PI / 2)) + b;
+            },
+            easeInOutSine: function(x, t, b, c, d) {
+                return (-c / 2) * (Math.cos((Math.PI * t) / d) - 1) + b;
+            },
+            easeInExpo: function(x, t, b, c, d) {
+                return t == 0 ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+            },
+            easeOutExpo: function(x, t, b, c, d) {
+                return t == d ? b + c : c * (-Math.pow(2, (-10 * t) / d) + 1) + b;
+            },
+            easeInOutExpo: function(x, t, b, c, d) {
+                if (t == 0) return b;
+                if (t == d) return b + c;
+                if ((t /= d / 2) < 1) return (c / 2) * Math.pow(2, 10 * (t - 1)) + b;
+                return (c / 2) * (-Math.pow(2, -10 * --t) + 2) + b;
+            },
+            easeInCirc: function(x, t, b, c, d) {
+                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+            },
+            easeOutCirc: function(x, t, b, c, d) {
+                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+            },
+            easeInOutCirc: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1)
+                    return (-c / 2) * (Math.sqrt(1 - t * t) - 1) + b;
+                return (c / 2) * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+            },
+            easeInElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    -(
+                        a *
+                        Math.pow(2, 10 * (t -= 1)) *
+                        Math.sin(((t * d - s) * (2 * Math.PI)) / p)
+                    ) + b
+                );
+            },
+            easeOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    a *
+                    Math.pow(2, -10 * t) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) +
+                    c +
+                    b
+                );
+            },
+            easeInOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d / 2) == 2) return b + c;
+                if (!p) p = d * (0.3 * 1.5);
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                if (t < 1)
+                    return (
+                        -0.5 *
+                        (a *
+                            Math.pow(2, 10 * (t -= 1)) *
+                            Math.sin(((t * d - s) * (2 * Math.PI)) / p)) +
+                        b
+                    );
+                return (
+                    a *
+                    Math.pow(2, -10 * (t -= 1)) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) *
+                    0.5 +
+                    c +
+                    b
+                );
+            },
+            easeInBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * (t /= d) * t * ((s + 1) * t - s) + b;
+            },
+            easeOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+            },
+            easeInOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                if ((t /= d / 2) < 1)
+                    return (c / 2) * (t * t * (((s *= 1.525) + 1) * t - s)) + b;
+                return (
+                    (c / 2) * ((t -= 2) * t * (((s *= 1.525) + 1) * t + s) + 2) + b
+                );
+            },
+            easeInBounce: function(x, t, b, c, d) {
+                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+            },
+            easeOutBounce: function(x, t, b, c, d) {
+                if ((t /= d) < 1 / 2.75) {
+                    return c * (7.5625 * t * t) + b;
+                } else if (t < 2 / 2.75) {
+                    return c * (7.5625 * (t -= 1.5 / 2.75) * t + 0.75) + b;
+                } else if (t < 2.5 / 2.75) {
+                    return c * (7.5625 * (t -= 2.25 / 2.75) * t + 0.9375) + b;
+                } else {
+                    return c * (7.5625 * (t -= 2.625 / 2.75) * t + 0.984375) + b;
+                }
+            },
+            easeInOutBounce: function(x, t, b, c, d) {
+                if (t < d / 2)
+                    return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * 0.5 + b;
+                return (
+                    jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * 0.5 +
+                    c * 0.5 +
+                    b
+                );
+            },
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function() {
+            var u17009span = $("span.u17009"),
+                initialvalue = u17009span.text();
+            u17009span.text("0");
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 1000) {
+                    u17009span.prop("Counter", 0).animate({
+                        Counter: initialvalue
+                    }, {
+                        duration: 3200,
+                        easing: "linear",
+                        step: function(now) {
+                            u17009span.text(Math.ceil(now));
+                        },
+                    });
+                    return;
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        // t: current time, b: begInnIng value, c: change In value, d: duration
+        jQuery.easing["jswing"] = jQuery.easing["swing"];
+
+        jQuery.extend(jQuery.easing, {
+            def: "easeOutQuad",
+            swing: function(x, t, b, c, d) {
+                //alert(jQuery.easing.default);
+                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+            },
+            easeInQuad: function(x, t, b, c, d) {
+                return c * (t /= d) * t + b;
+            },
+            easeOutQuad: function(x, t, b, c, d) {
+                return -c * (t /= d) * (t - 2) + b;
+            },
+            easeInOutQuad: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t + b;
+                return (-c / 2) * (--t * (t - 2) - 1) + b;
+            },
+            easeInCubic: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t + b;
+            },
+            easeOutCubic: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t + 1) + b;
+            },
+            easeInOutCubic: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t + 2) + b;
+            },
+            easeInQuart: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t + b;
+            },
+            easeOutQuart: function(x, t, b, c, d) {
+                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+            },
+            easeInOutQuart: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t + b;
+                return (-c / 2) * ((t -= 2) * t * t * t - 2) + b;
+            },
+            easeInQuint: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t * t + b;
+            },
+            easeOutQuint: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+            },
+            easeInOutQuint: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t * t * t + 2) + b;
+            },
+            easeInSine: function(x, t, b, c, d) {
+                return -c * Math.cos((t / d) * (Math.PI / 2)) + c + b;
+            },
+            easeOutSine: function(x, t, b, c, d) {
+                return c * Math.sin((t / d) * (Math.PI / 2)) + b;
+            },
+            easeInOutSine: function(x, t, b, c, d) {
+                return (-c / 2) * (Math.cos((Math.PI * t) / d) - 1) + b;
+            },
+            easeInExpo: function(x, t, b, c, d) {
+                return t == 0 ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+            },
+            easeOutExpo: function(x, t, b, c, d) {
+                return t == d ? b + c : c * (-Math.pow(2, (-10 * t) / d) + 1) + b;
+            },
+            easeInOutExpo: function(x, t, b, c, d) {
+                if (t == 0) return b;
+                if (t == d) return b + c;
+                if ((t /= d / 2) < 1) return (c / 2) * Math.pow(2, 10 * (t - 1)) + b;
+                return (c / 2) * (-Math.pow(2, -10 * --t) + 2) + b;
+            },
+            easeInCirc: function(x, t, b, c, d) {
+                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+            },
+            easeOutCirc: function(x, t, b, c, d) {
+                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+            },
+            easeInOutCirc: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1)
+                    return (-c / 2) * (Math.sqrt(1 - t * t) - 1) + b;
+                return (c / 2) * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+            },
+            easeInElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    -(
+                        a *
+                        Math.pow(2, 10 * (t -= 1)) *
+                        Math.sin(((t * d - s) * (2 * Math.PI)) / p)
+                    ) + b
+                );
+            },
+            easeOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    a *
+                    Math.pow(2, -10 * t) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) +
+                    c +
+                    b
+                );
+            },
+            easeInOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d / 2) == 2) return b + c;
+                if (!p) p = d * (0.3 * 1.5);
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                if (t < 1)
+                    return (
+                        -0.5 *
+                        (a *
+                            Math.pow(2, 10 * (t -= 1)) *
+                            Math.sin(((t * d - s) * (2 * Math.PI)) / p)) +
+                        b
+                    );
+                return (
+                    a *
+                    Math.pow(2, -10 * (t -= 1)) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) *
+                    0.5 +
+                    c +
+                    b
+                );
+            },
+            easeInBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * (t /= d) * t * ((s + 1) * t - s) + b;
+            },
+            easeOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+            },
+            easeInOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                if ((t /= d / 2) < 1)
+                    return (c / 2) * (t * t * (((s *= 1.525) + 1) * t - s)) + b;
+                return (
+                    (c / 2) * ((t -= 2) * t * (((s *= 1.525) + 1) * t + s) + 2) + b
+                );
+            },
+            easeInBounce: function(x, t, b, c, d) {
+                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+            },
+            easeOutBounce: function(x, t, b, c, d) {
+                if ((t /= d) < 1 / 2.75) {
+                    return c * (7.5625 * t * t) + b;
+                } else if (t < 2 / 2.75) {
+                    return c * (7.5625 * (t -= 1.5 / 2.75) * t + 0.75) + b;
+                } else if (t < 2.5 / 2.75) {
+                    return c * (7.5625 * (t -= 2.25 / 2.75) * t + 0.9375) + b;
+                } else {
+                    return c * (7.5625 * (t -= 2.625 / 2.75) * t + 0.984375) + b;
+                }
+            },
+            easeInOutBounce: function(x, t, b, c, d) {
+                if (t < d / 2)
+                    return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * 0.5 + b;
+                return (
+                    jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * 0.5 +
+                    c * 0.5 +
+                    b
+                );
+            },
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function() {
+            var u17012span = $("span.u17012"),
+                initialvalue = u17012span.text();
+            u17012span.text("0");
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 1000) {
+                    u17012span.prop("Counter", 0).animate({
+                        Counter: initialvalue
+                    }, {
+                        duration: 3200,
+                        easing: "linear",
+                        step: function(now) {
+                            u17012span.text(Math.ceil(now));
+                        },
+                    });
+                    return;
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        // t: current time, b: begInnIng value, c: change In value, d: duration
+        jQuery.easing["jswing"] = jQuery.easing["swing"];
+
+        jQuery.extend(jQuery.easing, {
+            def: "easeOutQuad",
+            swing: function(x, t, b, c, d) {
+                //alert(jQuery.easing.default);
+                return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+            },
+            easeInQuad: function(x, t, b, c, d) {
+                return c * (t /= d) * t + b;
+            },
+            easeOutQuad: function(x, t, b, c, d) {
+                return -c * (t /= d) * (t - 2) + b;
+            },
+            easeInOutQuad: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t + b;
+                return (-c / 2) * (--t * (t - 2) - 1) + b;
+            },
+            easeInCubic: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t + b;
+            },
+            easeOutCubic: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t + 1) + b;
+            },
+            easeInOutCubic: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t + 2) + b;
+            },
+            easeInQuart: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t + b;
+            },
+            easeOutQuart: function(x, t, b, c, d) {
+                return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+            },
+            easeInOutQuart: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t + b;
+                return (-c / 2) * ((t -= 2) * t * t * t - 2) + b;
+            },
+            easeInQuint: function(x, t, b, c, d) {
+                return c * (t /= d) * t * t * t * t + b;
+            },
+            easeOutQuint: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+            },
+            easeInOutQuint: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t * t + b;
+                return (c / 2) * ((t -= 2) * t * t * t * t + 2) + b;
+            },
+            easeInSine: function(x, t, b, c, d) {
+                return -c * Math.cos((t / d) * (Math.PI / 2)) + c + b;
+            },
+            easeOutSine: function(x, t, b, c, d) {
+                return c * Math.sin((t / d) * (Math.PI / 2)) + b;
+            },
+            easeInOutSine: function(x, t, b, c, d) {
+                return (-c / 2) * (Math.cos((Math.PI * t) / d) - 1) + b;
+            },
+            easeInExpo: function(x, t, b, c, d) {
+                return t == 0 ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+            },
+            easeOutExpo: function(x, t, b, c, d) {
+                return t == d ? b + c : c * (-Math.pow(2, (-10 * t) / d) + 1) + b;
+            },
+            easeInOutExpo: function(x, t, b, c, d) {
+                if (t == 0) return b;
+                if (t == d) return b + c;
+                if ((t /= d / 2) < 1) return (c / 2) * Math.pow(2, 10 * (t - 1)) + b;
+                return (c / 2) * (-Math.pow(2, -10 * --t) + 2) + b;
+            },
+            easeInCirc: function(x, t, b, c, d) {
+                return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+            },
+            easeOutCirc: function(x, t, b, c, d) {
+                return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+            },
+            easeInOutCirc: function(x, t, b, c, d) {
+                if ((t /= d / 2) < 1)
+                    return (-c / 2) * (Math.sqrt(1 - t * t) - 1) + b;
+                return (c / 2) * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+            },
+            easeInElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    -(
+                        a *
+                        Math.pow(2, 10 * (t -= 1)) *
+                        Math.sin(((t * d - s) * (2 * Math.PI)) / p)
+                    ) + b
+                );
+            },
+            easeOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d) == 1) return b + c;
+                if (!p) p = d * 0.3;
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                return (
+                    a *
+                    Math.pow(2, -10 * t) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) +
+                    c +
+                    b
+                );
+            },
+            easeInOutElastic: function(x, t, b, c, d) {
+                var s = 1.70158;
+                var p = 0;
+                var a = c;
+                if (t == 0) return b;
+                if ((t /= d / 2) == 2) return b + c;
+                if (!p) p = d * (0.3 * 1.5);
+                if (a < Math.abs(c)) {
+                    a = c;
+                    var s = p / 4;
+                } else var s = (p / (2 * Math.PI)) * Math.asin(c / a);
+                if (t < 1)
+                    return (
+                        -0.5 *
+                        (a *
+                            Math.pow(2, 10 * (t -= 1)) *
+                            Math.sin(((t * d - s) * (2 * Math.PI)) / p)) +
+                        b
+                    );
+                return (
+                    a *
+                    Math.pow(2, -10 * (t -= 1)) *
+                    Math.sin(((t * d - s) * (2 * Math.PI)) / p) *
+                    0.5 +
+                    c +
+                    b
+                );
+            },
+            easeInBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * (t /= d) * t * ((s + 1) * t - s) + b;
+            },
+            easeOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+            },
+            easeInOutBack: function(x, t, b, c, d, s) {
+                if (s == undefined) s = 1.70158;
+                if ((t /= d / 2) < 1)
+                    return (c / 2) * (t * t * (((s *= 1.525) + 1) * t - s)) + b;
+                return (
+                    (c / 2) * ((t -= 2) * t * (((s *= 1.525) + 1) * t + s) + 2) + b
+                );
+            },
+            easeInBounce: function(x, t, b, c, d) {
+                return c - jQuery.easing.easeOutBounce(x, d - t, 0, c, d) + b;
+            },
+            easeOutBounce: function(x, t, b, c, d) {
+                if ((t /= d) < 1 / 2.75) {
+                    return c * (7.5625 * t * t) + b;
+                } else if (t < 2 / 2.75) {
+                    return c * (7.5625 * (t -= 1.5 / 2.75) * t + 0.75) + b;
+                } else if (t < 2.5 / 2.75) {
+                    return c * (7.5625 * (t -= 2.25 / 2.75) * t + 0.9375) + b;
+                } else {
+                    return c * (7.5625 * (t -= 2.625 / 2.75) * t + 0.984375) + b;
+                }
+            },
+            easeInOutBounce: function(x, t, b, c, d) {
+                if (t < d / 2)
+                    return jQuery.easing.easeInBounce(x, t * 2, 0, c, d) * 0.5 + b;
+                return (
+                    jQuery.easing.easeOutBounce(x, t * 2 - d, 0, c, d) * 0.5 +
+                    c * 0.5 +
+                    b
+                );
+            },
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function() {
+            var u17018span = $("span.u17018"),
+                initialvalue = u17018span.text();
+            u17018span.text("0");
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 1000) {
+                    u17018span.prop("Counter", 0).animate({
+                        Counter: initialvalue
+                    }, {
+                        duration: 3200,
+                        easing: "linear",
+                        step: function(now) {
+                            u17018span.text(Math.ceil(now));
+                        },
+                    });
+                    return;
+                }
+            });
+        });
+    </script>
+</body>
+
 </html>
