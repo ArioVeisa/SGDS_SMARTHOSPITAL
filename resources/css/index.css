@@ -776,7 +776,6 @@
 
 #u16661 {
     z-index: 97;
-    min-height: 2971px;
     background-color: #ffffff;
 }
 
@@ -1015,7 +1014,7 @@
     border-radius: 200px;
     position: relative;
     margin-right: -10000px;
-    background: transparent url("../images/400%20x%20400-u21548-fr.jpg")
+    background: transparent url("../images/psycologist.png")
         no-repeat center top;
     background-size: cover;
 }
@@ -1031,7 +1030,7 @@
     position: relative;
     margin-right: -10000px;
     left: 198px;
-    background: transparent url("../images/400%20x%20400-u21548-fr.jpg")
+    background: transparent url("../images/dentalservice.jpg")
         no-repeat center top;
     background-size: cover;
 }
@@ -1047,7 +1046,7 @@
     position: relative;
     margin-right: -10000px;
     left: 398px;
-    background: transparent url("../images/400%20x%20400-u21548-fr.jpg")
+    background: transparent url("../images/vaccination.jpg")
         no-repeat center top;
     background-size: cover;
 }
@@ -1063,7 +1062,7 @@
     position: relative;
     margin-right: -10000px;
     left: 599px;
-    background: transparent url("../images/400%20x%20400-u21548-fr.jpg")
+    background: transparent url("../images/healthcheckup.jpg")
         no-repeat center top;
     background-size: cover;
 }
@@ -1158,7 +1157,7 @@
 #pu16579 {
     width: 0.01px;
     left: 100px;
-    margin-top: 441px;
+    margin-top: 60px;
     position: relative;
 }
 
@@ -1326,7 +1325,7 @@
     position: relative;
     margin-right: -10000px;
     margin-top: 3px;
-    background: #dddddd url("../images/400%20x%20400-u21580-fr.jpg") no-repeat
+    background: #dddddd url("../images/articlesehat.jpg") no-repeat
         center top;
     background-size: cover;
 }
@@ -1384,7 +1383,7 @@
     position: relative;
     margin-right: -10000px;
     margin-top: 3px;
-    background: #dddddd url("../images/400%20x%20400-u21580-fr.jpg") no-repeat
+    background: #dddddd url("../images/yoga.jpg") no-repeat
         center top;
     background-size: cover;
 }
@@ -1433,7 +1432,7 @@
     position: relative;
     margin-right: -10000px;
     margin-top: 3px;
-    background: #dddddd url("../images/400%20x%20400-u21580-fr.jpg") no-repeat
+    background: #dddddd url("../images/covid.jpg") no-repeat
         center top;
     background-size: cover;
 }
@@ -1530,7 +1529,6 @@
 
 #u16661-bw {
     z-index: 97;
-    min-height: 2971px;
 }
 
 #u18060 {
@@ -1668,7 +1666,7 @@
 #u16510 {
     z-index: 139;
     min-height: 244px;
-    background: transparent url("../images/1920%20x%20700-u21562-fr.png")
+    background: transparent url("../images/dokter.jpg")
         no-repeat center center;
     background-size: cover;
 }
@@ -2518,7 +2516,7 @@
 
 #u16999-bw {
     z-index: 289;
-    margin-top: 2182px;
+    margin-top: 960px;
     height: 244px;
 }
 
@@ -2704,7 +2702,7 @@
 #u17000-bw {
     z-index: 290;
     min-height: 195px;
-    margin-top: 2182px;
+    margin-top: 960px;
 }
 
 #pamphletu17023 {
@@ -2904,7 +2902,7 @@
     padding-bottom: 406px;
     position: relative;
     margin-right: -10000px;
-    margin-top: 877px;
+    margin-top: 544px;
     left: 500px;
 }
 
@@ -2957,7 +2955,7 @@
     position: absolute;
     width: 470px;
     background-color: transparent;
-    top: 55px;
+    top: 0;
 }
 
 #u22317popup {
@@ -2984,7 +2982,7 @@
     border-color: #f8f8f8;
     border-radius: 100px;
     position: relative;
-    background: #dddddd url("../images/400%20x%20400-u21548-fr.jpg") no-repeat
+    background: #dddddd url("../images/maternity.jpeg") no-repeat
         center top;
     background-size: cover;
 }
@@ -2999,7 +2997,7 @@
     border-radius: 100px;
     margin-top: 64px;
     position: relative;
-    background: #dddddd url("../images/400%20x%20400-u21548-fr.jpg") no-repeat
+    background: #dddddd url("../images/vaksin1.jpg") no-repeat
         center top;
     background-size: cover;
 }
