@@ -2509,7 +2509,7 @@
 }
 
 #u16999 {
-    z-index: 289;
+    z-index: 170;
     height: 244px;
     background-color: #47b2e6;
 }
@@ -2521,11 +2521,11 @@
 }
 
 #u17000 {
-    z-index: 290;
+    z-index: 170;
     min-height: 195px;
     padding-bottom: 49px;
-    background: transparent url("../images/1920%20x%20700-u21562-fr.png")
-        no-repeat center center;
+    /* background: transparent url("../images/1920%20x%20700-u21562-fr.png")
+        no-repeat center center; */
     background-size: cover;
 }
 
@@ -2896,7 +2896,7 @@
 }
 
 #pamphletu22316 {
-    z-index: 359;
+    z-index: 170;
     width: 0.01px;
     height: 15px;
     padding-bottom: 406px;
