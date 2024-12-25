@@ -83,7 +83,7 @@
 <body>
     <div class="rounded-corners clearfix" id="page">
         <!-- column -->
-        <div class="position_content" id="page_position_content">
+        <'div class="position_content" id="page_position_content">
             <div class="browser_width" id="u22267-bw">
                 <div class="pinned-colelem" id="u22267"><!-- simple frame --></div>
             </div>
@@ -98,12 +98,12 @@
                 <!-- group -->
                 <div class="clip_frame grpelem" id="u17287">
                     <!-- image -->
-                    <img class="block" id="u17287_img" src="images/heart2886.png" alt="" width="35"
-                        height="31" />
+                    <img class="block" id="u17287_img" src="{{ asset('storage/images/heart2886.png') }}" alt=""
+                        width="35" height="31" />
                 </div>
                 <div class="clearfix grpelem" id="u17283-5">
                     <!-- content -->
-                    <p><span id="u17283">M</span>EDICAL</p>
+                    <p><span id="u17283">H</span>EALTHTIX</p>
                 </div>
             </div>
             <div class="infocontact">
@@ -164,7 +164,7 @@
                             href="articles.html"><!-- horizontal box -->
                             <div class="MenuItemLabel NoWrap clearfix grpelem" id="u17267-4">
                                 <!-- content -->
-                                <p>Articel</p>
+                                <p>Article</p>
                             </div>
                         </a>
                     </div>
@@ -281,7 +281,7 @@
                                         <!-- group -->
                                         <div class="fadeIn clearfix grpelem" id="u16417-4">
                                             <!-- content -->
-                                            <p>Medical Services</p>
+                                            <p>Berita Kesehatan Terbaru</p>
                                         </div>
                                         <a class="nonblock nontext Button fadeIn rounded-corners clearfix grpelem"
                                             id="buttonu16665" href="services.html"><!-- container box -->
@@ -294,10 +294,8 @@
                                     <div class="clearfix colelem" id="u18031-4">
                                         <!-- content -->
                                         <p>
-                                            Duis autem vel eum iriure dolor in hendrerit in
-                                            vulputate velit esse molestie consequat, vel illum
-                                            dolore eu feugiat nulla facilisis at vero eros et
-                                            accumsan et iusto odio dignissim
+                                            Selalu up-to-date dengan informasi terbaru tentang penyakit, wabah, dan
+                                            langkah-langkah pencegahan kesehatan dari seluruh dunia
                                         </p>
                                     </div>
                                     <div class="clearfix colelem" id="pu16421">
@@ -501,15 +499,12 @@
                                 </div>
                                 <div class="rounded-corners clearfix colelem" id="u16534-4">
                                     <!-- content -->
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                                        quis nostrud exerci tation ullamcorper suscipit lobortis
-                                        nisl ut aliquip ex ea commodo consequat. Duis autem vel
-                                        eum iriure dolor in hendrerit in vulputate velit esse
-                                        molestie consequat
-                                    </p>
+                                    <p>Kelompok 4 : </p>
+                                    <p>Vivi Intan Sari</p>
+                                    <p>Aawali Salsabila</p>
+                                    <p>Mariana Angelica Putri De Rozary</p>
+                                    <p>Ario</p>
+                                    <p>Husein</p>
                                 </div>
                             </div>
                         </div>
@@ -974,16 +969,16 @@
                     <div class="clearfix" id="u17155_align_to_page">
                         <div class="clip_frame grpelem" id="u17182">
                             <!-- image -->
-                            <img class="block" id="u17182_img" src="images/heart2886.png" alt=""
-                                width="29" height="26" />
+                            <img class="block" id="u17182_img" src="{{ asset('storage/images/heart2886.png') }}"
+                                alt="" width="29" height="26" />
                         </div>
                         <div class="clearfix grpelem" id="u17181-5">
                             <!-- content -->
-                            <p><span id="u17181">M</span>EDICAL</p>
+                            <p><span id="u17181">H</span>EALTHTIX</p>
                         </div>
                         <div class="clearfix grpelem" id="u17163-5">
                             <!-- content -->
-                            <p id="u17163-2">Copyright © 2015 Mani All rights reserved.</p>
+                            <p id="u17163-2">Copyright © 2024 Kelompokq 4.</p>
                             <p id="u17163-3">&nbsp;</p>
                         </div>
                         <div class="grpelem" id="u17322">
@@ -1024,13 +1019,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
     </div>
     <div class="preload_images">
-        <img class="preload" src="images/400%20x%20400-u21548-r-fr.png" alt="" />
-        <img class="preload" src="images/u16827-17-r.png" alt="" />
-        <img class="preload" src="images/u16827-17-m.png" alt="" />
-        <img class="preload" src="images/u16827-17-fs.png" alt="" />
+        <img class="preload" src="{{ asset('images/u16827-17-r.png') }}" alt="" />
+        <img class="preload" src="{{ asset('images/u16827-17-m.png') }}" alt="" />
+        <img class="preload" src="{{ asset('images/u16827-17-fs.png') }}" alt="" />
     </div>
     <!-- JS includes -->
     <script type="text/javascript">
