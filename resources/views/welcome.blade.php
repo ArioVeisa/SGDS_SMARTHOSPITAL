@@ -231,14 +231,11 @@
                         <!-- column -->
                         <div class="rounded-corners fadeIn clearfix colelem" id="u12031-4">
                             <!-- content -->
-                            <p>Opening Hours</p>
+                            <p>Welcome to Healthtix</p>
                         </div>
                         <div class="clearfix colelem" id="u16139-10">
                             <!-- content -->
-                            <p>- Monday - Friday</p>
-                            <p>&nbsp;&nbsp; 8:00 a.m. - 5:00 p.m.</p>
-                            <p>- Saturday - Sunday</p>
-                            <p>&nbsp;&nbsp; Closed</p>
+                            <p>"Your trusted partner for healthcare solutions. Find doctors, book appointments, and access health resources with ease."</p>
                         </div>
                     </div>
                 </div>
@@ -264,14 +261,14 @@
                                         </div>
                                         <div class="rounded-corners clearfix grpelem" id="u16393-4">
                                             <!-- content -->
-                                            <p>Find Doctor</p>
+                                            <p>Health Care</p>
                                         </div>
                                     </div>
                                     <div class="clearfix colelem" id="u16391">
                                         <!-- group -->
                                         <div class="clearfix grpelem" id="u16392-4">
                                             <!-- content -->
-                                            <p>Know your doctor ? View their profiles here</p>
+                                            <p>Keep yourself fully informed with the latest developments on different types of diseases, emerging outbreaks, and the preventive health measures being taken across the globe to protect communities and improve overall public health</p>
                                         </div>
                                     </div>
                                 </div>
@@ -281,15 +278,12 @@
                                         <!-- group -->
                                         <div class="fadeIn clearfix grpelem" id="u16417-4">
                                             <!-- content -->
-                                            <p>Berita Kesehatan Terbaru</p>
+                                            <p>New Health Article</p>
                                         </div>
                                     </div>
                                     <div class="clearfix colelem" id="u18031-4">
                                         <!-- content -->
-                                        <p>
-                                            Selalu up-to-date dengan informasi terbaru tentang penyakit, wabah, dan
-                                            langkah-langkah pencegahan kesehatan dari seluruh dunia
-                                        </p>
+                                        <p>Stay up-to-date with the most current information regarding various diseases, global outbreaks, and essential health prevention measures being implemented around the world to ensure public safety and well-being.</p>
                                     </div>
                                     <div class="clearfix colelem" id="pu16421">
                                         <!-- group -->
@@ -316,7 +310,7 @@
                                 </div>
                                 <div class="clearfix grpelem" id="u16471-4">
                                     <!-- content -->
-                                    <p>Dental Services</p>
+                                    <p>Dental Health</p>
                                 </div>
                                 <div class="clearfix grpelem" id="u16475-4">
                                     <p>Vaccination</p>
@@ -344,7 +338,7 @@
                                 </div>
                                 <div class="fadeIn clearfix grpelem" id="u22314-4">
                                     <!-- content -->
-                                    <p>Packages and Programs</p>
+                                    <p>Government Health Program</p>
                                 </div>
                             </div>
                             <div class="clearfix colelem" id="pmakeanappointment">
@@ -361,7 +355,7 @@
                                             <!-- column -->
                                             <div class="clearfix colelem" id="u16584-4">
                                                 <!-- content -->
-                                                <p>What is Ultrasound?</p>
+                                                <p>Is it important to maintain a healthy diet?</p>
                                             </div>
                                             <a class="nonblock nontext clearfix colelem" id="u18532-4"
                                                 href="sample-article-page.html"><!-- content -->
@@ -378,7 +372,7 @@
                                             <!-- column -->
                                             <div class="clearfix colelem" id="u18538-4">
                                                 <!-- content -->
-                                                <p>Duis autem vel eum iriure dolor in hendrerit.</p>
+                                                <p>Is exercise important for health?</p>
                                             </div>
                                             <a class="nonblock nontext clearfix colelem" id="u18537-4"
                                                 href="sample-article-page.html"><!-- content -->
@@ -395,7 +389,7 @@
                                             <!-- column -->
                                             <div class="clearfix colelem" id="u18541-4">
                                                 <!-- content -->
-                                                <p>Duis autem vel eum iriure dolor in hendrerit.</p>
+                                                <p>The number of COVID-19 cases is rising at an alarming rate.</p>
                                             </div>
                                             <a class="nonblock nontext clearfix colelem" id="u18540-4"
                                                 href="sample-article-page.html"><!-- content -->
@@ -485,18 +479,17 @@
                                     <!-- column -->
                                     <div class="clearfix colelem" id="u22332-4">
                                         <!-- content -->
-                                        <p>Maternity Package 2015</p>
+                                        <p>Maternity Care</p>
                                     </div>
                                     <div class="clearfix colelem" id="u22339-4">
                                         <!-- content -->
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit, sed diam
+                                            Maternity care refers to the healthcare services provided to women during pregnancy, childbirth, and the postpartum period.
                                         </p>
                                     </div>
                                     <div class="clearfix colelem" id="u22330-4">
                                         <!-- content -->
-                                        <p>Valid: July 02, 2015 - July 31, 2015</p>
+                                        <p>August 02, 2024 - October 31, 2024</p>
                                     </div>
                                     <div class="clearfix colelem" id="u22334-4">
                                         <!-- content -->
@@ -509,13 +502,12 @@
                                     <div class="clearfix colelem" id="u22335-4">
                                         <!-- content -->
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit, sed diam
+                                            The influenza vaccine, commonly known as the flu shot, is a vaccine designed to protect against the seasonal influenza virus.
                                         </p>
                                     </div>
                                     <div class="clearfix colelem" id="u22336-4">
                                         <!-- content -->
-                                        <p>Valid: July 02, 2015 - July 31, 2015</p>
+                                        <p>December 02, 2024 - December 31, 2024</p>
                                     </div>
                                     <div class="clearfix colelem" id="u22331-4">
                                         <!-- content -->
