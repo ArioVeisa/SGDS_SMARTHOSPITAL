@@ -79,8 +79,8 @@
             </a>
             <div class="clearfix pinned-colelem" id="u17377"><!-- group -->
                 <div class="clip_frame grpelem" id="u17287"><!-- image -->
-                    <img class="block" id="u17287_img" src="images/heart2886.png" alt="" width="35"
-                        height="31" />
+                    <img class="block" id="u17287_img" src="{{ asset('storage/images/heart2886.png') }}" alt=""
+                        width="35" height="31" />
                 </div>
                 <div class="clearfix grpelem" id="u17283-5"><!-- content -->
                     <p><span id="u17283">M</span>EDICAL</p>
@@ -392,14 +392,14 @@
                 <div id="u17155"><!-- group -->
                     <div class="clearfix" id="u17155_align_to_page">
                         <div class="clip_frame grpelem" id="u17182"><!-- image -->
-                            <img class="block" id="u17182_img" src="images/heart2886.png" alt=""
-                                width="29" height="26" />
+                            <img class="block" id="u17182_img" src="{{ asset('storage/images/heart2886.png') }}"
+                                alt="" width="29" height="26" />
                         </div>
                         <div class="clearfix grpelem" id="u17181-5"><!-- content -->
                             <p><span id="u17181">M</span>EDICAL</p>
                         </div>
                         <div class="clearfix grpelem" id="u17163-5"><!-- content -->
-                            <p id="u17163-2">Copyright © 2015 Mani All rights reserved.</p>
+                            <p id="u17163-2">Copyright © 2024 Kelompok 4.</p>
                             <p id="u17163-3">&nbsp;</p>
                         </div>
                         <div class="grpelem" id="u17322"><!-- custom html -->
