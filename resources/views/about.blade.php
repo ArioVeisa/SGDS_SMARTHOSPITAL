@@ -25,29 +25,16 @@
                 global community through education, awareness, and prevention.</p>
         </div>
         <div class="clearfix grpelem" id="pu22446"><!-- column -->
-            <div class="colelem" id="u22446"><!-- custom html -->
-                <i class="fa fa-check "></i>
-            </div>
-            <div class="colelem" id="u22448"><!-- custom html -->
-                <i class="fa fa-check "></i>
-            </div>
-            <div class="colelem" id="u22450"><!-- custom html -->
-                <i class="fa fa-check "></i>
-            </div>
+            <x-check id="u22446" />
+            <x-check id="u22448" />
+            <x-check id="u22450" />
         </div>
         <div class="clearfix grpelem" id="pu18039-4"><!-- column -->
-            <div class="clearfix colelem" id="u18039-4"><!-- content -->
-                <p>To provide up-to-date, evidence-based health articles that help people make informed
-                    decisions about their well-being</p>
-            </div>
-            <div class="clearfix colelem" id="u18042-4"><!-- content -->
-                <p>To be a trusted source for health information, encouraging a proactive approach to personal
-                    and public health</p>
-            </div>
-            <div class="clearfix colelem" id="u18044-4"><!-- content -->
-                <p>To raise public awareness about emerging health challenges and promote preventive measures
-                </p>
-            </div>
+            <x-mission>{{ __('To provide up-to-date, evidence-based health articles that help people make informed
+                                                        decisions about their well-being') }}</x-mission>
+            <x-mission>{{ __('To be a trusted source for health information, encouraging a proactive approach to personal
+                                                        and public health') }}</x-mission>
+            <x-mission>{{ __('To raise public awareness about emerging health challenges and promote preventive measures') }}</x-mission>
         </div>
     </div>
     <div class="clearfix colelem" id="pu18049"><!-- group -->
