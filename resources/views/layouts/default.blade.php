@@ -37,6 +37,7 @@
     @vite('resources/css/master_a-master.css')
     @vite('resources/css/index.css')
     @vite('resources/css/about.css')
+    @vite('resources/css/articles.css')
     @vite('resources/js/app.js')
 
 

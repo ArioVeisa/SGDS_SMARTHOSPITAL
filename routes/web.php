@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/articel', function () {
+    return view('articles');
+});
 // Route::get('/', function () {
 //     return view('welcome');
 // });
