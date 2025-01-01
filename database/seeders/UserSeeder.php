@@ -23,18 +23,12 @@ class UserSeeder extends Seeder
 
         // Buat user Kontributor
         $kontributor = User::create([
-            'name' => 'Kontributor',
-            'email' => 'kontributor@paw.com',
+            'name' => 'Contributor',
+            'email' => 'contributor@paw.com',
             'password' => bcrypt('password123')
         ]);
-        $kontributor->assignRole('kontributor'); // assign role kontributor
+        $kontributor->assignRole('Contributor'); // assign role kontributor
 
-        // Buat user Public 
-        $pengguna = User::create([
-            'name' => 'Public User',
-            'email' => 'user@paw.com',
-            'password' => bcrypt('password123')
-        ]);
-        $pengguna->assignRole('public'); // assign role public 
+       
     }
 }
