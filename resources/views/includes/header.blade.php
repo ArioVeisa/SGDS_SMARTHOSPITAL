@@ -75,7 +75,7 @@
         <div class="MenuItemContainer clearfix grpelem" id="u17263">
             <!-- vertical box -->
             <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u17264"
-                href="articles.html"><!-- horizontal box -->
+                href="/articel"><!-- horizontal box -->
                 <div class="MenuItemLabel NoWrap clearfix grpelem" id="u17267-4">
                     <!-- content -->
                     <p>Article</p>
