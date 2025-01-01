@@ -41,10 +41,10 @@
                                 <!-- group -->
                                 <div class="clearfix grpelem" id="u16397">
                                     <!-- group -->
-                                    <div class="grpelem" id="u22299">
+                                    {{-- <div class="grpelem" id="u22299">
                                         <!-- custom html -->
                                         <i class="fa fa-user-md"></i>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="rounded-corners clearfix grpelem" id="u16393-4">
                                     <!-- content -->
