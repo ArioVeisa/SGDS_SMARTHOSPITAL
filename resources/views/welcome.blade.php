@@ -1,31 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-    <div class="SlideShowWidget clearfix align_parts_to_page mse_pre_init" id="slideshowu75">
-        <!-- none box -->
-        <div class="popup_anchor" id="u81popup">
-            <div class="SlideShowContentPanel clearfix" id="u81">
-                <!-- stack box -->
-                <div class="SSSlide clip_frame grpelem" id="u17425">
-                    <!-- image -->
-                    <img class="ImageInclude" id="u17425_img" data-src="images/1920%20x%20890.jpg" src="images/blank.gif"
-                        alt="" data-width="1370" data-height="635" />
-                </div>
-            </div>
-        </div>
-        <div class="popup_anchor" id="u88-4popup">
-            <div class="SSPreviousButton clearfix" id="u88-4">
-                <!-- content -->
-                <p id="u88-2">&lt;</p>
-            </div>
-        </div>
-        <div class="popup_anchor" id="u80-4popup">
-            <div class="SSNextButton clearfix" id="u80-4">
-                <!-- content -->
-                <p id="u80-2">&gt;</p>
-            </div>
-        </div>
-    </div>
+
     <div class="clearfix colelem" id="pu17297">
         <!-- group -->
         <div class="browser_width grpelem" id="u17297-bw">
@@ -101,6 +77,7 @@
                                     global outbreaks, and essential health prevention measures being implemented
                                     around the world to ensure public safety and well-being.</p>
                             </div>
+                            {{-- Frame Gambar New Health Article --}}
                             <div class="clearfix colelem" id="pu16421">
                                 <!-- group -->
                                 <div class="fadeIn rounded-corners grpelem" id="u16421">
@@ -328,60 +305,6 @@
                                 <p>December 02, 2024 - December 31, 2024</p>
                             </div>
                             <div class="clearfix colelem" id="u22331-4">
-                                <!-- content -->
-                                <p>Read More&nbsp; &gt;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Container invi clearfix grpelem" id="u22318">
-                        <!-- group -->
-                        <div class="clearfix grpelem" id="pu22327">
-                            <!-- column -->
-                            <div class="rounded-corners colelem" id="u22327">
-                                <!-- simple frame -->
-                            </div>
-                            <div class="rounded-corners colelem" id="u22324">
-                                <!-- simple frame -->
-                            </div>
-                        </div>
-                        <div class="clearfix grpelem" id="pu22323-4">
-                            <!-- column -->
-                            <div class="clearfix colelem" id="u22323-4">
-                                <!-- content -->
-                                <p>Health &amp; Beauty Acupuncture Packages.</p>
-                            </div>
-                            <div class="clearfix colelem" id="u22325-4">
-                                <!-- content -->
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                    elit, sed diam
-                                </p>
-                            </div>
-                            <div class="clearfix colelem" id="u22322-4">
-                                <!-- content -->
-                                <p>Valid: July 02, 2015 - July 31, 2015</p>
-                            </div>
-                            <div class="clearfix colelem" id="u22326-4">
-                                <!-- content -->
-                                <p>Read More&nbsp; &gt;</p>
-                            </div>
-                            <div class="clearfix colelem" id="u22328-6">
-                                <!-- content -->
-                                <p>Health Check-Ups at Hospital</p>
-                                <p>Packages</p>
-                            </div>
-                            <div class="clearfix colelem" id="u22319-4">
-                                <!-- content -->
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                    elit, sed diam
-                                </p>
-                            </div>
-                            <div class="clearfix colelem" id="u22320-4">
-                                <!-- content -->
-                                <p>Valid: July 02, 2015 - July 31, 2015</p>
-                            </div>
-                            <div class="clearfix colelem" id="u22321-4">
                                 <!-- content -->
                                 <p>Read More&nbsp; &gt;</p>
                             </div>
