@@ -43,8 +43,7 @@ class UserResource extends Resource
                     ->email()
                     ->required()
                     ->unique(ignoreRecord: true)
-                    ->maxLength(255)
-                    ->columnSpanFull(),
+                    ->maxLength(255),
                 Forms\Components\TextInput::make('password')
                     ->dehydrateStateUsing(fn(string $state): string => Hash::make($state))
                     ->dehydrated(fn(?string $state): bool => filled($state))
@@ -62,13 +61,13 @@ class UserResource extends Resource
                     ->maxLength(255),
                 Forms\Components\Select::make('roles')
                     ->label('Role')
-                    ->multiple()
                     ->relationship('roles', 'name')
                     ->options(
                         Role::whereIn('name', ['kontributor', 'public'])->pluck('name', 'id')
                     )
                     ->searchable()
                     ->required()
+                    ->columnSpanFull()
             ]);
     }
 
@@ -84,9 +83,6 @@ class UserResource extends Resource
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
-            ])
-            ->emptyStateActions([
-                Tables\Actions\CreateAction::make()
             ]);
     }
 
@@ -111,7 +107,6 @@ class UserResource extends Resource
     {
         return [
             Tables\Columns\TextColumn::make('name')
-                ->label('Nama')
                 ->searchable(),
             Tables\Columns\TextColumn::make('email')
                 ->searchable()
