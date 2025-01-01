@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+
 use App\Filament\Resources\UserResource\Pages;
 use App\Filament\Resources\UserResource\RelationManagers;
 use App\Models\User;
@@ -16,6 +17,7 @@ use filament\Facades\Filament;
 use Spatie\Permission\Models\Role;
 use Illuminate\Support\Facades\Hash;
 
+
 class UserResource extends Resource
 {
     protected static ?string $model = User::class;
@@ -26,10 +28,10 @@ class UserResource extends Resource
 
     protected static ?int $navigationSort = 2;
 
-    public static function canViewAny(): bool
-    {
-        return Filament::auth()->user()->hasRole('admin');
-    }
+    // public static function canViewAny(): bool
+    // {
+    //     return Filament::auth()->user()->hasRole('admin');
+    // }
 
     public static function form(Form $form): Form
     {
@@ -75,6 +77,7 @@ class UserResource extends Resource
     {
         return $table
             ->columns(static::getTableColumns())
+            
             ->filters([
                 //
             ])
@@ -107,9 +110,12 @@ class UserResource extends Resource
     {
         return [
             Tables\Columns\TextColumn::make('name')
+                ->label('Nama')
                 ->searchable(),
             Tables\Columns\TextColumn::make('email')
-                ->searchable()
+                ->label('Email')
+                ->searchable(),
+            Tables\Columns\TextColumn::make('roles.name')
         ];
     }
 
