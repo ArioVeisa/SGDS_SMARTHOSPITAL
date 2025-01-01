@@ -10,10 +10,7 @@
                     </div>
                     <div class="clearfix colelem" id="u17156-4"><!-- content -->
                         <p>Healthtix, we are committed to providing reliable, clear, and accessible
-                            information on various diseases and health conditions from around the world. Our
-                            team of experts delivers up-to-date, evidence-based content to help you
-                            understand illnesses, their symptoms, treatments, and preventive measures, so
-                            you can make informed decisions about your health and well-being</p>
+                            information on various diseases and health conditions from around the world.</p>
                     </div>
                 </div>
                 <div class="clearfix grpelem" id="pu17162-4"><!-- column -->

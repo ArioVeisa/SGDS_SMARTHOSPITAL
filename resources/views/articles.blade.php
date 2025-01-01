@@ -204,6 +204,7 @@
                 <div id="u19242"><!-- simple frame --></div>
             </div>
             <div class="verticalspacer"></div>
+<<<<<<< HEAD
             <div class="browser_width colelem" id="u17154-bw">
                 <div id="u17154">
                     <!-- group -->
@@ -350,6 +351,8 @@
                     </div>
                 </div>
             </div>
+=======
+>>>>>>> 441ccea16f7471443ea3a032978e3a3836c5bdc5
         </div>
     </div>
     <div class="preload_images">
