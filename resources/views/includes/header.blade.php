@@ -1,8 +1,8 @@
 <div class="browser_width" id="u22267-bw">
     <div class="pinned-colelem" id="u22267"><!-- simple frame --></div>
 </div>
-<a class="nonblock nontext Button anim_swing rounded-corners clearfix pinned-colelem" id="buttonu17284"
-    href="{{ route('login') }}"><!-- container box -->
+<a class="nonblock nontext Button anim_swing rounded-corners clearfix pinned-colelem" id="buttonu17284" <a
+    href="/admin/login  ">
     <div class="clearfix grpelem" id="u17285-4">
         <!-- content -->
         <p>Login Or Register</p>

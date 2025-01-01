@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
          // Buat user Admin
          $admin = User::create([
             'name' => 'Admin',
-            'email' => 'admin@example.com',
+            'email' => 'admin@paw.com',
             'password' => bcrypt('password123')
         ]);
         $admin->assignRole('admin'); // assign role admin
@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
         // Buat user Kontributor
         $kontributor = User::create([
             'name' => 'Kontributor',
-            'email' => 'kontributor@example.com',
+            'email' => 'kontributor@paw.com',
             'password' => bcrypt('password123')
         ]);
         $kontributor->assignRole('kontributor'); // assign role kontributor
@@ -32,7 +32,7 @@ class UserSeeder extends Seeder
         // Buat user Public 
         $pengguna = User::create([
             'name' => 'Public User',
-            'email' => 'user@example.com',
+            'email' => 'user@paw.com',
             'password' => bcrypt('password123')
         ]);
         $pengguna->assignRole('public'); // assign role public 
