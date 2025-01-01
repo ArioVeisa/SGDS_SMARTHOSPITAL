@@ -6,8 +6,6 @@
             <div class="browser_width" id="u22267-bw">
                 <div class="pinned-colelem" id="u22267"><!-- simple frame --></div>
             </div>
-
-
             <div class="browser_width colelem" id="u19297-bw">
                 <div class="museBGSize" id="u19297">
                     <!-- group -->
@@ -25,7 +23,7 @@
             </div>
             <div class="fadeIn clearfix colelem" id="u19267-4">
                 <!-- content -->
-                <p>Health is the foundation of a fulfilling life. Articles in this section provide insights on nutrition,
+                <p> Health is the foundation of a fulfilling life. Articles in this section provide insights on nutrition,
                     exercise, mental well-being, and preventive measures to help you make informed decisions about your
                     health.
                 </p>
@@ -39,7 +37,7 @@
                     <!-- column -->
                     <div class="clearfix colelem" id="u19329-4">
                         <!-- content -->
-                        <p>What is Ultrasound?</p>
+                        <p>Is it important to maintain a healthy diet?</p>
                     </div>
                     <div class="clearfix colelem" id="pu22602">
                         <!-- group -->
@@ -49,7 +47,7 @@
                         </div>
                         <div class="clearfix grpelem" id="u19332-4">
                             <!-- content -->
-                            <p>July 02, 2015</p>
+                            <p>August 02, 2024</p>
                         </div>
                         <div class="grpelem" id="u22604">
                             <!-- custom html -->
@@ -57,14 +55,14 @@
                         </div>
                         <div class="clearfix grpelem" id="u19334-4">
                             <!-- content -->
-                            <p>By Admin</p>
+                            <p>By Clairey Sonnet</p>
                         </div>
                     </div>
                     <div class="clearfix colelem" id="u19330-5">
                         <!-- content -->
                         <p id="u19330-2">
-                            Ultrasound is a diagnostic imaging technique that uses high-frequency sound waves to create
-                            real-time images of the inside of the body....
+                            Explore essential insights into healthy eating habits, effective diet plans,
+                            and practical tips to maintain a balanced lifestyle...
                         </p>
                         <p id="u19330-3">&nbsp;</p>
                     </div>
@@ -80,7 +78,7 @@
                     <!-- column -->
                     <div class="clearfix colelem" id="u19342-4">
                         <!-- content -->
-                        <p>Tips for Healhty Living.</p>
+                        <p>Is exercise important for health?</p>
                     </div>
                     <div class="clearfix colelem" id="pu22610">
                         <!-- group -->
@@ -90,7 +88,7 @@
                         </div>
                         <div class="clearfix grpelem" id="u19338-4">
                             <!-- content -->
-                            <p>July 02, 2015</p>
+                            <p>May 09, 2024</p>
                         </div>
                         <div class="grpelem" id="u22612">
                             <!-- custom html -->
@@ -98,7 +96,7 @@
                         </div>
                         <div class="clearfix grpelem" id="u19339-4">
                             <!-- content -->
-                            <p>By Admin</p>
+                            <p>By Servanya Holde</p>
                         </div>
                     </div>
                     <div class="clearfix colelem" id="u19336-5">
@@ -124,7 +122,7 @@
                     <!-- column -->
                     <div class="clearfix colelem" id="u19351-4">
                         <!-- content -->
-                        <p>The Importance of Early Disease Detection.</p>
+                        <p>The number of COVID-19 cases is rising at an alarming rate.</p>
                     </div>
                     <div class="clearfix colelem" id="pu22606">
                         <!-- group -->
@@ -134,7 +132,7 @@
                         </div>
                         <div class="clearfix grpelem" id="u19355-4">
                             <!-- content -->
-                            <p>July 02, 2015</p>
+                            <p>July 08, 2024</p>
                         </div>
                         <div class="grpelem" id="u22608">
                             <!-- custom html -->
@@ -142,7 +140,7 @@
                         </div>
                         <div class="clearfix grpelem" id="u19353-4">
                             <!-- content -->
-                            <p>By Admin</p>
+                            <p>By Catherina Joyslyn</p>
                         </div>
                     </div>
                     <div class="clearfix colelem" id="u19352-5">
@@ -175,7 +173,7 @@
                         </div>
                         <div class="clearfix grpelem" id="u19346-4">
                             <!-- content -->
-                            <p>July 02, 2015</p>
+                            <p>July 02, 2023</p>
                         </div>
                         <div class="grpelem" id="u22616">
                             <!-- custom html -->
@@ -183,7 +181,7 @@
                         </div>
                         <div class="clearfix grpelem" id="u19347-4">
                             <!-- content -->
-                            <p>By Admin</p>
+                            <p>By Faybit Durty</p>
                         </div>
                     </div>
                     <div class="clearfix colelem" id="u19343-5">
