@@ -75,10 +75,10 @@
         <div class="MenuItemContainer clearfix grpelem" id="u17263">
             <!-- vertical box -->
             <a class="nonblock nontext MenuItem MenuItemWithSubMenu {{ Request::is('article') ? 'MuseMenuActive' : '' }} clearfix colelem"
-                id="u17264" href="{{ url('article') }}"><!-- horizontal box -->
+                id="u17264" href="/articles"><!-- horizontal box -->
                 <div class="MenuItemLabel NoWrap clearfix grpelem" id="u17267-4">
                     <!-- content -->
-                    <p>Article</p>
+                    <p>Articles</p>
                 </div>
             </a>
         </div>

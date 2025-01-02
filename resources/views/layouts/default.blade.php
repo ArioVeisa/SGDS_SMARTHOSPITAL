@@ -13,6 +13,7 @@
             "outOfDate": []
         };
     </script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="scripts/museredirect.js?3899419633" type="text/javascript"></script>
 
@@ -38,6 +39,7 @@
     @vite('resources/css/index.css')
     @vite('resources/css/about.css')
     @vite('resources/css/articles.css')
+    @vite('resources/css/sample-article-page.css')
     @vite('resources/js/app.js')
 
 
@@ -55,6 +57,8 @@
             '//webfonts.creativecloud.com/raleway:n7,n4,n3,n8,n6:all;open-sans:n6:all.js" type="text/javascript">\x3C/script>'
         );
     </script>
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+
     <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
   <![endif]-->
@@ -945,6 +949,8 @@
                 });
             });
         </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
