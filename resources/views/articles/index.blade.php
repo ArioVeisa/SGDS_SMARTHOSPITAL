@@ -43,7 +43,7 @@
 
                             <div class="card-body">
                                 <!-- Title of the article -->
-                                <h5 class="card-title">{{ $post->title }}</h5>
+                                <h5 class="card-title"><strong>{{ $post->title }}</strong></h5>
 
                                 <!-- Excerpt or summary of the article -->
                                 <p class="card-text">{{ $post->excerpt }}</p>
